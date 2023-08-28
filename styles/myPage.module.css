@@ -1,0 +1,31 @@
+.myPageContainer {
+    width: 245px;
+    height: 91px;
+    background-color: #293047bb;
+    border-radius: 10px;
+    z-index: 9999;
+    position: absolute;
+    right: 560px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3px;
+    row-gap: 3px;
+    align-content: center;
+    padding: 10px;
+}
+
+.myPageContainer .myPageGrid {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 700;
+}

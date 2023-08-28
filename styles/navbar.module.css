@@ -1,0 +1,134 @@
+.navbarContainer {
+    padding: 0 350px;
+    margin: auto;
+    width: 1920px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-between;
+    height: 48px;
+    margin-bottom: 1px;
+    border-bottom: 12px solid pink;
+}
+
+.logoBox {
+    width: 229px;
+    height: 36px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navbarList li {
+    font-size: 10px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 36px;
+    margin-right: 14px;
+}
+
+.navbarList li.guestMenu:nth-child(6),
+.navbarList li.guestMenu:nth-child(7) {
+    width: 70px;
+    height: 36px;
+}
+
+.navbarList li.loginMenu:nth-child(2) {
+    width: 92px;
+}
+
+.navbarList li:last-child {
+    color: white;
+    background-color: #4169E1;
+    width: 150px;
+    height: 36px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 0;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    border-bottom: 10px solid #DA70D6;
+    border-top: 10px solid #DA70D6;
+}
+
+.submenuList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.submenuList li {
+    width: 138px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submenuList li:nth-child(odd) {
+    background-color: #808080;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    /* position: absolute; */
+    position: fixed;
+    top: 228px;
+    right: 70px;
+}
+
+.sidebar li {
+    width: 70px;
+    height: 70px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.sidebar li:not(:last-child):hover {
+    width: 141px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.sidebar li:last-child:hover {
+    cursor: pointer;
+}
+
+.sidebar li.closed {
+    width: 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.allMenu {
+    position: absolute;
+    top: 157px;
+}

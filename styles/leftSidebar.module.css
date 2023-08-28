@@ -1,0 +1,33 @@
+.leftSidebarContainer {
+    width: 500px;
+    height: 100vh;
+}
+
+.leftSidebarContainer .sidebarWrapper {
+    width: 250px;
+    margin-left: 200px;
+}
+
+.leftSidebarContainer .sidebarWrapper .profile {
+    
+}
+
+.leftSidebarContainer .sidebarWrapper .contentsBox {
+}
+
+.leftSidebarContainer .sidebarWrapper .advertisement {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.leftSidebarContainer .sidebarWrapper .advertisement div {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: #808080;
+}
