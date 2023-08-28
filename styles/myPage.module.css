@@ -29,3 +29,42 @@
     font-size: 16px;
     font-weight: 700;
 }
+/* 내가 작성한거 */
+
+.boxWrapper{
+    /* border:1px solid red; */
+    width:245px;
+    box-sizing: border-box;
+}
+
+.boxInner{
+    display:flex;
+    align-items: center;
+    /* border:1px solid green; */
+    margin:21px;
+}
+
+.userIconWrapper{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-right:21px;
+}
+.userIcon{
+    width:50px;
+    height:50px;
+}
+
+.userNameWrapper{
+    width:120px;
+    /* border:1px solid black; */
+}
+
+.userName{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

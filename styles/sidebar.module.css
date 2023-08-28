@@ -5,3 +5,61 @@
     justify-content: center;
     padding-top: 36px;
 }
+
+.boxWrapper{
+    width: 245px;
+    border-top: 1px solid black;
+}
+.itemWrapper{
+    background-color: #808080;
+    border-bottom:1px solid black;
+    padding:9px 9px 10px 14px; 
+}
+.itemInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:16px;
+}
+.itemText{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.itemIcon{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.setBlueColor{
+    background-color: blue;
+}
+
+.dropDownList{
+
+}
+
+.dropDownInner{
+
+}
+.dropDownItem{
+    background-color: #D9D9D9;
+}
+.dropDownItemInner{
+    padding:8px 144px 9px 54px;
+}
+.dropDownText{
+    height:16px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
