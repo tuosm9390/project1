@@ -1,0 +1,144 @@
+.boxContainer{
+    width: 600px;
+    height: 438px;
+    background-color: black;
+    border-radius: 30px;
+    padding:36px 20px 20px 20px;
+}
+
+.boxWrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* 첫번째줄 */
+.firstRowContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.firstRowContainer .firstDivWrapper{
+    border:1px solid white;
+    border-radius: 10px;
+    width:272px;
+    height:42px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:12px 11px;
+}
+
+.firstRowContainer .secondDivWrapper{
+    display: flex;
+    justify-content: end;
+    border:1px solid white;
+    align-items: center;
+    border-radius: 10px;
+    width:272px;
+    height:42px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding:12px 11px;
+}
+/* 두번째줄 */
+
+.secondRowContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.secondRowContainer .firstDivWrapper{
+    width:138px;
+    height:42px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+
+.secondRowContainer .secondDivWrapper{
+    width: 170px;
+    height:42px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.secondRowContainer .thirdDivWrapper{
+    width: 104px;
+    height:42px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.secondRowContainer .fourthDivWrapper{
+    width: 126px;
+    height:42px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+/* 세번째줄 */
+.thirdRowContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdRowContainer .boxItem{
+    width: 83px;
+    height:36px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+/* 네번째줄 */
+.fourthRowContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthRowContainer .userAccInfoTextWrapper{
+    height: 16px;
+    flex-shrink: 0;
+    margin:0 auto;
+}
+
+.fourthRowContainer .userAccInfoText{
+    color: #FF8C00;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fourthRowContainer .userAccInfoBox{
+    width:418px;
+    height:42px;
+    border:1px solid white;
+    border-radius: 10px;
+}
+
+/* 다섯번째 */
+.fifthRowContainer .bigBoxWrapper{
+    width: 560px;
+    height: 150px;
+    border:1px solid white;
+    border-radius: 10px;
+    padding:31px 30px 38px 31px;
+}
+
+.fifthRowContainer .bigBoxInner{
+    height:79px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
