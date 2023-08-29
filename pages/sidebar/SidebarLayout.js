@@ -4,8 +4,6 @@ import RightSidebar from './rightSidebar'
 import styles from '../../styles/sidebar.module.css'
 
 function SidebarLayout(props) {
-    console.log((props.children.type.name))
-
     return (
         // 사이드 레이아웃
         <section className={styles.sidebarContainer}>

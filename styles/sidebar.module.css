@@ -2,7 +2,7 @@
     width: 1920px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 36px;
 }
 
