@@ -11,7 +11,7 @@ function leftSidebar() {
                         <MyPage/>
                     </div>
                     <div className={styles.contentsBox}>
-        <SideBar/>
+                        <SideBar/>
                     </div>
                     <div className={styles.advertisement}>
                         <div></div>
