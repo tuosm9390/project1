@@ -6,22 +6,25 @@
     padding-top: 36px;
 }
 
-.boxWrapper{
+.boxWrapper {
     width: 245px;
     border-top: 1px solid black;
 }
-.itemWrapper{
+
+.itemWrapper {
     background-color: #808080;
-    border-bottom:1px solid black;
-    padding:9px 9px 10px 14px; 
+    border-bottom: 1px solid black;
+    padding: 9px 9px 10px 14px;
 }
-.itemInner{
+
+.itemInner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:16px;
+    height: 16px;
 }
-.itemText{
+
+.itemText {
     color: #000;
     font-family: Inter;
     font-size: 14px;
@@ -29,7 +32,8 @@
     font-weight: 400;
     line-height: normal;
 }
-.itemIcon{
+
+.itemIcon {
     color: #000;
     font-family: Inter;
     font-size: 24px;
@@ -37,25 +41,25 @@
     font-weight: 400;
     line-height: normal;
 }
-.setBlueColor{
+
+.setBlueColor {
     background-color: blue;
 }
 
-.dropDownList{
+.dropDownList {}
 
-}
+.dropDownInner {}
 
-.dropDownInner{
-
-}
-.dropDownItem{
+.dropDownItem {
     background-color: #D9D9D9;
 }
-.dropDownItemInner{
-    padding:8px 144px 9px 54px;
+
+.dropDownItemInner {
+    padding: 8px 144px 9px 54px;
 }
-.dropDownText{
-    height:16px;
+
+.dropDownText {
+    height: 16px;
     color: #000;
     font-family: Inter;
     font-size: 14px;

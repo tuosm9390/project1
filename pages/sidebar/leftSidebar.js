@@ -8,10 +8,10 @@ function leftSidebar() {
             <div className={styles.leftSidebarContainer}>
                 <div className={styles.sidebarWrapper}>
                     <div className={styles.profile}>
-                        <MyPage/>
+                        <MyPage />
                     </div>
                     <div className={styles.contentsBox}>
-                        <SideBar/>
+                        <SideBar />
                     </div>
                     <div className={styles.advertisement}>
                         <div></div>

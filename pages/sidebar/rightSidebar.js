@@ -4,12 +4,14 @@ import styles from '../../styles/rightSidebar.module.css'
 function rightSidebar() {
     return (
         <sidebar>
-            <div className={styles.rightSidebarContainer}>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+            {props.pageStatus != 'ChargeList' && (
+                <div className={styles.rightSidebarContainer}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            )}
         </sidebar>
     )
 }
