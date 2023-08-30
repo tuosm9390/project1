@@ -1,5 +1,7 @@
 .chargeContainer {
     color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .chargeContainer .chargeTabWrapper {
@@ -24,7 +26,7 @@
     font-weight: 700;
 }
 
-.chargeContainer .chargeTabWrapper li.active {
+.chargeContainer .chargeTabWrapper .active {
     background-color: #4169E1;
 }
 

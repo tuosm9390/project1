@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './rightSidebar.module.css'
+import styles from '../styles/rightSidebar.module.css'
 
 function rightSidebar() {
     return (

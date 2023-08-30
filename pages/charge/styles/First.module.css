@@ -1,4 +1,9 @@
 .chargeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.chargeInnerWrapper {
     width: 600px;
     height: 865px;
     background-color: black;

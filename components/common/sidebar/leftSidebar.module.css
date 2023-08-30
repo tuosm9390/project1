@@ -1,6 +1,7 @@
 .leftSidebarContainer {
     width: 500px;
     height: 100vh;
+    position: absolute;
 }
 
 .leftSidebarContainer .sidebarWrapper {
