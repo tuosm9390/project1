@@ -1,7 +1,8 @@
 import React from 'react'
-import styles from '../../styles/leftSidebar.module.css'
+import styles from './leftSidebar.module.css'
 import SideBar from './SideBar'
-import MyPage from './MyPage';
+import MyPage from './MyPage'
+
 function leftSidebar() {
     return (
         <sidebar>

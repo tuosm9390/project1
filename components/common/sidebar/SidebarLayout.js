@@ -1,7 +1,7 @@
 import React from 'react'
 import LeftSidebar from './leftSidebar'
 import RightSidebar from './rightSidebar'
-import styles from '../../styles/sidebar.module.css'
+import styles from './sidebar.module.css'
 
 function SidebarLayout(props) {
     return (

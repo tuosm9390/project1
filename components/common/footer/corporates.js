@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/corporates.module.css'
+import styles from './corporates.module.css'
 
 function corporates() {
     return (

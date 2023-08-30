@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from '../Layout'
-import SidebarLayout from '../sidebar/SidebarLayout'
+import Layout from '../../components/common/Layout'
+import SidebarLayout from '../../components/common/sidebar/SidebarLayout'
 import ChargeList from './components/chargeList'
 import First from './components/First';
 import Second from './components/Second'
@@ -11,10 +11,10 @@ function index() {
     // sidebar 레이아웃
     <Layout>
       <SidebarLayout>
-        {/* <ChargeList /> */}
+        <ChargeList />
         {/* <First/> */}
         {/* <Second/> */}
-        <SwitchPoints />
+        {/* <SwitchPoints /> */}
       </SidebarLayout>
     </Layout>
   )

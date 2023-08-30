@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import styles from '../../styles/navbar.module.css'
+import styles from './navbar.module.css'
 import Menu from '../footer/menu'
-import MyPage from './myPage'
+import Popup from './popup'
 import { useRouter } from 'next/router'
 
 function navbar() {
@@ -73,7 +73,7 @@ function navbar() {
             {/* 화살표 숨김/표시 */}
             <div className={styles.myPage}>
                 {myPageIsOpen && (
-                    <MyPage />
+                    <Popup />
                 )}
             </div>
             <div className={styles.submenu}>
