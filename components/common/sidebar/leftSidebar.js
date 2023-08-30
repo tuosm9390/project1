@@ -14,7 +14,7 @@ function leftSidebar() {
                     <div className={styles.contentsBox}>
                         <SideBar />
                     </div>
-                    <div className={styles.advertisement}>
+                    <div className={styles.banner}>
                         <div></div>
                         <div></div>
                         <div></div>

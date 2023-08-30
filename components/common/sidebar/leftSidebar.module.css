@@ -15,7 +15,7 @@
 .leftSidebarContainer .sidebarWrapper .contentsBox {
 }
 
-.leftSidebarContainer .sidebarWrapper .advertisement {
+.leftSidebarContainer .sidebarWrapper .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 10px;
@@ -25,7 +25,7 @@
     padding-top: 10px;
 }
 
-.leftSidebarContainer .sidebarWrapper .advertisement div {
+.leftSidebarContainer .sidebarWrapper .banner div {
     width: 120px;
     height: 120px;
     border-radius: 20px;
