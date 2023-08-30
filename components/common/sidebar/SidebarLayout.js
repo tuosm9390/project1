@@ -7,11 +7,9 @@ function SidebarLayout(props) {
     return (
         // 사이드 레이아웃
         <section className={styles.sidebarContainer}>
-            <LeftSidebar />
-            {props.children}
-            {(props.children.type.name)?.indexOf('Charge') == true && (
-                <RightSidebar pageStatus={(props.children.type.name)} />
-            )}
+            <LeftSidebar/>
+                {props.children}
+            {/* <RightSidebar/> */}
         </section>
     )
 }

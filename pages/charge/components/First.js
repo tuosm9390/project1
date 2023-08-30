@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from '../styles/First.module.css'
-
+import rightSidebar from '../../../components/common/sidebar/rightSidebar'
 function First() {
   return (
     // sidebar 레이아웃
+    <>
         <div className={styles.chargeContainer}>
           <div className={styles.chargeInner}>
             {/* 첫번째줄 */}
@@ -100,6 +101,7 @@ function First() {
             </div>
           </div>
         </div>
+        </>
   )
 }
 

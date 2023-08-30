@@ -8,7 +8,6 @@
 
 .boxInner{
     width: 756px;
-    border:1px solid white;
     height:100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +19,6 @@
     margin: 0 auto;
     height: 35px;
     flex-shrink: 0;
-    border: 1px solid red;
 }
 
 .firstRowContainer .titleText{
@@ -54,6 +52,22 @@
     height:40px;
     border-radius: 10px;
     background-color: black;
+    padding:12px 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstDivContainer div{
+    color:white;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+.secondRowContainer .firstDivWrapper{
+    border:1px solid white;
+    height:18px;
 }
 
 .secondRowContainer .secondDivContainer{
@@ -61,10 +75,23 @@
     height:40px;
     border-radius: 10px;
     background-color: black;
+    display: flex;
+    justify-content: end;
+    padding:12px 9px;
+}
+
+.secondDivContainer div{
+    color:white;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
 }
 /* 세번째 줄 */
 .thirdRowContainer{
-    width:690px;
+    border:1px solid red;
+    width:702px;
     height: 38px;
     margin:0 auto;
 }
@@ -79,6 +106,7 @@
     height:36px;
     border: 1px solid white;
     background-color: black;
+    border-radius: 5px;
 }
 .thirdRowContainer .itemBtnText{
     color: #FFF;
@@ -93,7 +121,36 @@
     margin:0 auto;
     width: 580px;
     height:34px;
-    border:1px solid red;
+}
+
+.fourthRowContainer .fourthRowWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthRowContainer .fourthRowBtn1{
+    width: 280px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #B22222;
+}
+
+.fourthRowContainer .fourthRowBtn2{
+    width: 280px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #4169E1;
+}
+
+.fourthRowContainer .fourthRowBtnText{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 /* 다섯번째 줄 */
@@ -105,4 +162,16 @@
     border-radius: 20px;
     background: #293047;
     
+}
+.fifthRowContainer .fifthRowWrapper{
+    padding:68px 0px;
+}
+.fifthRowText{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }

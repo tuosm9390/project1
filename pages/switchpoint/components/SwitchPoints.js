@@ -11,8 +11,13 @@ export default function SwitchPoints(){
                 {/* 두번째 줄 */}
                 <div className={styles.secondRowContainer}>
                     <div className={styles.secondRowInner}>
-                        <div className={styles.firstDivContainer}></div>
-                        <div className={styles.secondDivContainer}></div>
+                        <div className={styles.firstDivContainer}>
+                            <div>보유머니</div>
+                            <div>0P</div>
+                        </div>
+                        <div className={styles.secondDivContainer}>
+                            <div>0P</div>
+                        </div>
                     </div>
                 </div>
                 {/* 세번째 줄 */}
@@ -40,11 +45,20 @@ export default function SwitchPoints(){
                 </div>
                 {/* 네번째 줄 */}
                 <div className={styles.fourthRowContainer}>
-
+                    <div className={styles.fourthRowWrapper}>
+                        <button className={styles.fourthRowBtn1}>
+                            <div className={styles.fourthRowBtnText}>정정</div>
+                        </button>
+                        <button className={styles.fourthRowBtn2}>
+                            <div className={styles.fourthRowBtnText}>확인</div>
+                        </button>
+                    </div>
                 </div>
                 {/* 다섯번째 줄 */}
                 <div className={styles.fifthRowContainer}>
-
+                    <div className={styles.fifthRowWrapper}>
+                        <div className={styles.fifthRowText}>광고</div>
+                    </div>
                 </div>
             </div>
         </div>    
