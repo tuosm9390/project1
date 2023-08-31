@@ -4,7 +4,9 @@ export default function mainPage(){
     return (
         <div className={styles.boxContainer}>
             <div className={styles.boxWrapper}>
+                {/* 첫번째 줄 */}
                 <div className={styles.titleContainer}>확인</div>
+                {/* 두번째 줄 */}
                 <table className={styles.chargeListTable}>
                 <colgroup>
                     <col width='101px' />
@@ -41,6 +43,7 @@ export default function mainPage(){
                     </tr>
                 </tbody>
             </table>
+            {/* 세번째 줄 */}
             <div className={styles.pagenationContainer}>
                 <div>{`< 1 >`}</div>
             </div>

@@ -1,8 +1,9 @@
 import styles from '../styles/Second.module.css'
-
+import RightSidebar from './rightSidebar'
 
 export default function Second(){
     return (
+        <div className={styles.chargeContainer}>
         <div className={styles.boxContainer}>
             <div className={styles.boxWrapper}>
             {/* 첫번째줄 */}
@@ -51,6 +52,8 @@ export default function Second(){
                 </div>
             </div>
             </div>
+            </div>
+            <RightSidebar />
         </div>    
     )
 }

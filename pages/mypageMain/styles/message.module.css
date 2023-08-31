@@ -1,0 +1,38 @@
+.boxContainer{
+    width: 166px;
+}
+
+.titleContainer{
+    height: 26px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+
+
+.boxWrapper button{
+    width: 164px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #4169E1;
+}
+
+.boxWrapper button div{
+    height: 11px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11px;
+}

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import style from './SideBar.module.css'
+import Link from 'next/link';
 
 export default function SideBar() {
     const [selectedIndex, setSelectedIndex] = useState(1);
@@ -20,21 +21,23 @@ export default function SideBar() {
     return (
         <div className={style.boxWrapper}>
             <div className={style.boxInner}>
-                <div
+                <Link 
+                    href='/charge'
                     className={style.itemWrapper}
                     selected={selectedIndex === 1}
                     onClick={() => {
                         handleListItemClick(1)
                         onClickTopBtn()
                     }}
-                    style={{ backgroundColor: 1 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ backgroundColor: 1 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>충전/내역</div>
                         <div className={style.itemIcon}>
                             {open ? '-' : '+'}
                         </div>
                     </div>
-                </div>
+                </Link>
                 <>
                     {open &&
                         <div className={style.dropDownList}>
@@ -58,55 +61,86 @@ export default function SideBar() {
                         </div>
                     }
                 </>
-                <div className={style.itemWrapper}
+                <Link 
+                    href='/switchpoint' 
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(2)}
-                    style={{ backgroundColor: 2 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ 
+                            backgroundColor: 2 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>포인트</div>
                     </div>
-                </div>
-                <div className={style.itemWrapper}
+                </Link>
+                <Link 
+                    // 추후 경로 수정
+                    href='/' 
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(3)}
-                    style={{ backgroundColor: 3 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ 
+                            backgroundColor: 3 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>쪽지</div>
                     </div>
-                </div>
-                <div className={style.itemWrapper}
+                </Link>
+                <Link 
+                    href='/inquiry' 
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(4)}
-                    style={{ backgroundColor: 4 === id ? ('#4169E1') : '#808080' }}>
+                    style={{
+                            backgroundColor: 4 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>1:1문의</div>
                     </div>
-                </div>
-                <div className={style.itemWrapper}
+                </Link>
+                <Link 
+                    href='/management' 
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(5)}
-                    style={{ backgroundColor: 5 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ 
+                            backgroundColor: 5 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>관리</div>
                     </div>
-                </div>
-                <div className={style.itemWrapper}
+                </Link>
+                <Link
+                    // 추후 경로 수정
+                    href='/' 
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(6)}
-                    style={{ backgroundColor: 6 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ 
+                            backgroundColor: 6 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>내역</div>
                     </div>
-                </div>
-                <div className={style.itemWrapper}
+                </Link>
+                <Link 
+                    // 추후 경로 수정
+                    href='/'
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(7)}
-                    style={{ backgroundColor: 7 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ 
+                            backgroundColor: 7 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>혜택</div>
                     </div>
-                </div>
-                <div className={style.itemWrapper}
+                </Link>
+                <Link 
+                    href='/extra' 
+                    className={style.itemWrapper}
                     onClick={() => handleListItemClick(8)}
-                    style={{ backgroundColor: 8 === id ? ('#4169E1') : '#808080' }}>
+                    style={{ 
+                            backgroundColor: 8 === id ? ('#4169E1') : '#808080',
+                            display:'block' }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>확인</div>
                     </div>
-                </div>
+                </Link>
             </div>
         </div>
     )

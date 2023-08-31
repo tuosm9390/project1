@@ -10,12 +10,12 @@ const Layout = (props) => {
     return (
         // 화면 전체 레이아웃 - navbar, footer
         <section className='layout'>
-            <Navbar />
+            <Navbar/>
             {router.pathname != '/' && (
-                <LeftSidebar />
+                <LeftSidebar/>
             )}
             {props.children}
-            <Footer />
+            <Footer/>
         </section>
     )
 }
