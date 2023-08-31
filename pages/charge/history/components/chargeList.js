@@ -3,14 +3,10 @@ import styles from '../styles/chargeList.module.css'
 import WideTable1 from './wideTable1'
 import WideTable2 from './wideTable2'
 import WideTable3 from './wideTable3'
-import RightSidebar from './rightSidebar'
+import RightSidebar from '../../components/rightSidebar'
 
 function ChargeList() {
     const [pageCondition, setPageCondition] = useState('condition1')
-
-    useEffect(() => {
-        console.log('pageCondition', pageCondition)
-    }, [pageCondition])
 
     return (
         // sidebar 레이아웃

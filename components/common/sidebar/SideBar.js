@@ -17,11 +17,11 @@ export default function SideBar() {
             setOpen(false) //다른거 누를때 드랍다운 안보이게 하기위함
         }
     }
-    
+
     return (
         <div className={style.boxWrapper}>
             <div className={style.boxInner}>
-                <Link 
+                <Link
                     href='/charge'
                     className={style.itemWrapper}
                     selected={selectedIndex === 1}
@@ -29,8 +29,10 @@ export default function SideBar() {
                         handleListItemClick(1)
                         onClickTopBtn()
                     }}
-                    style={{ backgroundColor: 1 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 1 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>충전/내역</div>
                         <div className={style.itemIcon}>
@@ -52,91 +54,100 @@ export default function SideBar() {
                                         <div className={style.dropDownText}>신청</div>
                                     </div>
                                 </div>
-                                <div className={style.dropDownItem}>
-                                    <div className={style.dropDownItemInner}>
-                                        <div className={style.dropDownText}>내역</div>
+                                <Link href='/charge/history'>
+                                    <div className={style.dropDownItem}>
+                                        <div className={style.dropDownItemInner}>
+                                            <div className={style.dropDownText}>내역</div>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     }
                 </>
-                <Link 
-                    href='/switchpoint' 
+                <Link
+                    href='/switchpoint'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(2)}
-                    style={{ 
-                            backgroundColor: 2 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 2 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>포인트</div>
                     </div>
                 </Link>
-                <Link 
+                <Link
                     // 추후 경로 수정
-                    href='/' 
+                    href='/note'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(3)}
-                    style={{ 
-                            backgroundColor: 3 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 3 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>쪽지</div>
                     </div>
                 </Link>
-                <Link 
-                    href='/inquiry' 
+                <Link
+                    href='/inquiry'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(4)}
                     style={{
-                            backgroundColor: 4 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                        backgroundColor: 4 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>1:1문의</div>
                     </div>
                 </Link>
-                <Link 
-                    href='/management' 
+                <Link
+                    href='/management'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(5)}
-                    style={{ 
-                            backgroundColor: 5 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 5 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>관리</div>
                     </div>
                 </Link>
                 <Link
                     // 추후 경로 수정
-                    href='/' 
+                    href='/history'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(6)}
-                    style={{ 
-                            backgroundColor: 6 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 6 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>내역</div>
                     </div>
                 </Link>
-                <Link 
+                <Link
                     // 추후 경로 수정
-                    href='/'
+                    href='/bonus'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(7)}
-                    style={{ 
-                            backgroundColor: 7 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 7 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>혜택</div>
                     </div>
                 </Link>
-                <Link 
-                    href='/extra' 
+                <Link
+                    href='/extra'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(8)}
-                    style={{ 
-                            backgroundColor: 8 === id ? ('#4169E1') : '#808080',
-                            display:'block' }}>
+                    style={{
+                        backgroundColor: 8 === id ? ('#4169E1') : '#808080',
+                        display: 'block'
+                    }}>
                     <div className={style.itemInner}>
                         <div className={style.itemText}>확인</div>
                     </div>
