@@ -1,0 +1,77 @@
+.historyContainer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.historyContainer .historyTabWrapper {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.historyContainer .historyTabWrapper .historyTab {
+    list-style: none;
+    width: 80px;
+    height: 34px;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.historyContainer .historyContentsWrapper {
+    width: 932px;
+    background-color: black;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 41px 19px 41px;
+}
+
+.historyContainer .historyContentsWrapper .historyContentsHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.historyContainer .historyContentsWrapper .historyContentsHead .readSelDelBtn {
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 7px;
+    height: 20px;
+}
+
+.historyContainer .historyContentsWrapper .historyContentsHead .readAllDelBtn {
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.historyContainer .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+.historyContainer .pagination button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}

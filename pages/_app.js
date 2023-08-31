@@ -7,8 +7,6 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter()
   const pathName = router.pathname
 
-  console.log('pathName', pathName)
-
   return (
     // layout으로 화면구성 감싸기
     <Layout>

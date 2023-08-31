@@ -7,9 +7,9 @@ import SwitchPoints from '../switchpoint/index'
 function index() {
   return (
     <>
-      {/* <ChargeList /> */}
+      <ChargeList />
       {/* <First/> */}
-      <Second/>
+      {/* <Second/> */}
       {/* <SwitchPoints /> */}
     </>
   )

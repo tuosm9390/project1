@@ -8,23 +8,18 @@ import RightSidebar from './rightSidebar'
 function ChargeList() {
     const [pageCondition, setPageCondition] = useState('condition1')
 
-    // TODO
-    const addClassName = (target) => {
-        const targetList = document.getElementsByClassName(target.className)
-        const arr = Array.from(targetList)
-
-        arr.map(item => item.classList?.remove('active'))
-        target.className += ' active'
-    }
+    useEffect(() => {
+        console.log('pageCondition', pageCondition)
+    }, [pageCondition])
 
     return (
         // sidebar 레이아웃
         <div className={styles.chargeContainer}>
             <div className={styles.chargeInnerWrapper}>
                 <ul className={styles.chargeTabWrapper}>
-                    <li className='chargeTab active' onClick={(e) => (setPageCondition('condition1'), addClassName(e.target))}>충전내역</li>
-                    <li className='chargeTab' onClick={(e) => (setPageCondition('condition2'), addClassName(e.target))}>환전내역</li>
-                    <li className='chargeTab' onClick={(e) => (setPageCondition('condition3'), addClassName(e.target))}>사용내역</li>
+                    <li style={pageCondition == 'condition1' ? { backgroundColor: '#4169E1' } : { backgroundColor: 'black' }} className={styles.chargeTab} onClick={(e) => setPageCondition('condition1')}>충전내역</li>
+                    <li style={pageCondition == 'condition2' ? { backgroundColor: '#4169E1' } : { backgroundColor: 'black' }} className={styles.chargeTab} onClick={(e) => setPageCondition('condition2')}>환전내역</li>
+                    <li style={pageCondition == 'condition3' ? { backgroundColor: '#4169E1' } : { backgroundColor: 'black' }} className={styles.chargeTab} onClick={(e) => setPageCondition('condition3')}>사용내역</li>
                 </ul>
                 <div className={`${styles.chargeContentsWrapper} ${styles[`${pageCondition}`]}`}>
                     <h3>충전내역</h3>

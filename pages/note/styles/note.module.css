@@ -1,17 +1,17 @@
-.chargeContainer {
+.noteContainer {
     color: white;
     display: flex;
     flex-direction: row;
 }
 
-.chargeContainer .chargeTabWrapper {
+.noteContainer .noteTabWrapper {
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: row;
 }
 
-.chargeContainer .chargeTabWrapper .chargeTab {
+.noteContainer .noteTabWrapper .noteTab {
     list-style: none;
     width: 80px;
     height: 34px;
@@ -28,30 +28,38 @@
     cursor: pointer;
 }
 
-.chargeContainer .chargeContentsWrapper {
+.noteContainer .noteContentsWrapper {
     background-color: black;
     border-radius: 0px 0px 30px 30px;
     display: flex;
     flex-direction: column;
-    padding: 0 41px;
+    padding: 0 41px 19px 41px;
 }
 
-.chargeContainer .chargeContentsWrapper.condition1 {
-    width: 600px;
-    height: 793px;
+.noteContainer .noteContentsWrapper .noteContentsHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.chargeContainer .chargeContentsWrapper.condition2 {
-    width: 920px;
-    height: 197px;
+.noteContainer .noteContentsWrapper .noteContentsHead .readSelDelBtn {
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 7px;
 }
 
-.chargeContainer .chargeContentsWrapper.condition3 {
-    width: 920px;
-    height: 197px;
+.noteContainer .noteContentsWrapper .noteContentsHead .readAllDelBtn {
+    background-color: #B22222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.chargeContainer .pagination {
+.noteContainer .pagination {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,7 +68,7 @@
     font-size: 10px;
 }
 
-.chargeContainer .pagination button {
+.noteContainer .pagination button {
     border: none;
     background-color: transparent;
     color: white;
