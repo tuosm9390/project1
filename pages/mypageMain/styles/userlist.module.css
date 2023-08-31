@@ -1,0 +1,71 @@
+.boxContainer{
+    width: 305px;
+    height: 268px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    padding:34px 20px 82px 20px;
+}
+
+.titleContainer{
+    padding-bottom: 6px;
+    border-bottom: 1px solid white;
+}
+
+.titleContainer div{
+    height: 21px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.contentContainer{
+    height: 129px;
+    padding-top:6px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentContainer div div{
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 11px;
+padding-bottom: 6px;
+border-bottom: 1px solid white;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnContainer button{
+    width: 130px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #4169E1;
+}
+
+.btnContainer button div{
+    height: 11px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11px;
+    border-bottom: none;
+}

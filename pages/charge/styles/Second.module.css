@@ -1,3 +1,8 @@
+.chargeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
 .boxContainer{
     width: 600px;
     height: 438px;
