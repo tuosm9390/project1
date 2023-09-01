@@ -1,7 +1,7 @@
 import React from 'react'
-import First from './components/First';
-import Second from './components/Second'
-import SwitchPoints from '../switchpoint/index'
+import First from './First/components/First'
+// import Second from './components/Second'
+// import SwitchPoints from '../switchpoint/index'
 
 function index() {
   return (

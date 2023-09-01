@@ -1,5 +1,5 @@
 import styles from '../styles/Second.module.css'
-import RightSidebar from './rightSidebar'
+import RightSidebar from '../../First/components/rightSidebar'
 
 export default function Second(){
     return (

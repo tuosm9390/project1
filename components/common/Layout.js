@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 
 const Layout = (props) => {
     const router = useRouter()
-
+    
     return (
         // 화면 전체 레이아웃 - navbar, footer
         <section className='layout'>
