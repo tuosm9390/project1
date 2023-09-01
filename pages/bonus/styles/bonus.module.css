@@ -1,0 +1,66 @@
+.bonusContainer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.bonusContainer .bonusTabWrapper {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.bonusContainer .bonusTabWrapper .bonusTab {
+    list-style: none;
+    width: 80px;
+    height: 34px;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.bonusContainer .bonusContentsWrapper {
+    background-color: black;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 41px 19px 41px;
+}
+
+
+.bonusContainer .bonusContentsWrapper .bonusContentsHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonusContainer .bonusContentsWrapper .bonusTableWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 48px;
+  column-gap: 10px;
+}
+
+.bonusContainer .pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+.bonusContainer .pagination button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
