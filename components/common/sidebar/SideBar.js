@@ -3,8 +3,10 @@
 import { useState } from 'react';
 import style from './SideBar.module.css'
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function SideBar() {
+    const router=useRouter()
     const [selectedIndex, setSelectedIndex] = useState(1);
     const [open, setOpen] = useState(false)
     const [id, setId] = useState(1)
@@ -21,8 +23,7 @@ export default function SideBar() {
     return (
         <div className={style.boxWrapper}>
             <div className={style.boxInner}>
-                <Link
-                    href='/charge'
+                <div
                     className={style.itemWrapper}
                     selected={selectedIndex === 1}
                     onClick={() => {
@@ -39,21 +40,25 @@ export default function SideBar() {
                             {open ? '-' : '+'}
                         </div>
                     </div>
-                </Link>
+                </div>
                 <>
                     {open &&
                         <div className={style.dropDownList}>
                             <div className={style.dropDownInner}>
-                                <div className={style.dropDownItem}>
-                                    <div className={style.dropDownItemInner}>
-                                        <div className={style.dropDownText}>신청</div>
+                                <Link href='/charge/First'>
+                                    <div className={style.dropDownItem}>
+                                        <div className={style.dropDownItemInner}>
+                                            <div className={style.dropDownText}>신청</div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className={style.dropDownItem}>
-                                    <div className={style.dropDownItemInner}>
-                                        <div className={style.dropDownText}>신청</div>
+                                </Link>
+                                <Link href='/charge/Second'>
+                                    <div className={style.dropDownItem}>
+                                        <div className={style.dropDownItemInner}>
+                                            <div className={style.dropDownText}>신청</div>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                                 <Link href='/charge/history'>
                                     <div className={style.dropDownItem}>
                                         <div className={style.dropDownItemInner}>
