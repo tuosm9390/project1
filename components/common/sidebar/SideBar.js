@@ -1,13 +1,11 @@
 //7번 페이지 이후부터 사용되는 사이드바
-
+//16번 페이지 이후의 사이드바하고 내용 다름에 유의
 import { useState } from 'react';
 import style from './SideBar.module.css'
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 export default function SideBar() {
-    const router=useRouter()
-    const [selectedIndex, setSelectedIndex] = useState(1);
+    // const [selectedIndex, setSelectedIndex] = useState(1);
     const [open, setOpen] = useState(false)
     const [id, setId] = useState(1)
     const onClickTopBtn = () => { // 충전/내역 버튼 클릭시
@@ -25,7 +23,7 @@ export default function SideBar() {
             <div className={style.boxInner}>
                 <div
                     className={style.itemWrapper}
-                    selected={selectedIndex === 1}
+                    // selected={selectedIndex === 1}
                     onClick={() => {
                         handleListItemClick(1)
                         onClickTopBtn()
@@ -35,7 +33,7 @@ export default function SideBar() {
                         display: 'block'
                     }}>
                     <div className={style.itemInner}>
-                        <div className={style.itemText}>충전/내역</div>
+                        <div className={style.itemText}>충전/환전</div>
                         <div className={style.itemIcon}>
                             {open ? '-' : '+'}
                         </div>
@@ -48,21 +46,21 @@ export default function SideBar() {
                                 <Link href='/charge/First'>
                                     <div className={style.dropDownItem}>
                                         <div className={style.dropDownItemInner}>
-                                            <div className={style.dropDownText}>신청</div>
+                                            <div className={style.dropDownText}>충전신청</div>
                                         </div>
                                     </div>
                                 </Link>
                                 <Link href='/charge/Second'>
                                     <div className={style.dropDownItem}>
                                         <div className={style.dropDownItemInner}>
-                                            <div className={style.dropDownText}>신청</div>
+                                            <div className={style.dropDownText}>환전신청</div>
                                         </div>
                                     </div>
                                 </Link>
                                 <Link href='/charge/history'>
                                     <div className={style.dropDownItem}>
                                         <div className={style.dropDownItemInner}>
-                                            <div className={style.dropDownText}>내역</div>
+                                            <div className={style.dropDownText}>거래내역</div>
                                         </div>
                                     </div>
                                 </Link>
@@ -116,7 +114,7 @@ export default function SideBar() {
                         display: 'block'
                     }}>
                     <div className={style.itemInner}>
-                        <div className={style.itemText}>관리</div>
+                        <div className={style.itemText}>지인관리</div>
                     </div>
                 </Link>
                 <Link
@@ -129,7 +127,7 @@ export default function SideBar() {
                         display: 'block'
                     }}>
                     <div className={style.itemInner}>
-                        <div className={style.itemText}>내역</div>
+                        <div className={style.itemText}>베팅내역</div>
                     </div>
                 </Link>
                 <Link
@@ -142,7 +140,7 @@ export default function SideBar() {
                         display: 'block'
                     }}>
                     <div className={style.itemInner}>
-                        <div className={style.itemText}>혜택</div>
+                        <div className={style.itemText}>보너스 혜택</div>
                     </div>
                 </Link>
                 <Link
@@ -154,7 +152,7 @@ export default function SideBar() {
                         display: 'block'
                     }}>
                     <div className={style.itemInner}>
-                        <div className={style.itemText}>확인</div>
+                        <div className={style.itemText}>나의 롤링 확인</div>
                     </div>
                 </Link>
             </div>

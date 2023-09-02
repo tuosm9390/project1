@@ -46,14 +46,12 @@
     background-color: blue;
 }
 
-.dropDownList {
-    
-}
+.dropDownList {}
 
 .dropDownInner {}
 
 .dropDownItem {
-    
+    background-color: #D9D9D9;
 }
 
 .dropDownItemInner {
@@ -61,7 +59,6 @@
 }
 
 .dropDownText {
-    width: 250px;
     height: 16px;
     color: #000;
     font-family: Inter;
@@ -69,6 +66,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* border:1px solid red; */
 }
 

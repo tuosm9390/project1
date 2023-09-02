@@ -5,7 +5,7 @@ export default function mainPage(){
         <div className={styles.boxContainer}>
             <div className={styles.boxWrapper}>
                 {/* 첫번째 줄 */}
-                <div className={styles.titleContainer}>확인</div>
+                <div className={styles.titleContainer}>나의 롤링 확인</div>
                 {/* 두번째 줄 */}
                 <table className={styles.chargeListTable}>
                 <colgroup>
@@ -18,9 +18,9 @@ export default function mainPage(){
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>강강강강</th>
-                        <th>강강강강강</th>
-                        <th>강강</th>
+                        <th>사용머니</th>
+                        <th>사용 후 머니</th>
+                        <th>내역</th>
                         <th>날짜</th>
                     </tr>
                 </thead>

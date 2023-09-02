@@ -1,0 +1,26 @@
+.boxContainer{
+    width: 920px;
+    height: 737px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    padding:34px 18px 0 20px;
+}
+
+.boxWrapper{
+    border:1px solid white;
+    height: 100%;
+}
+
+.titleContainer{
+    text-align: center;
+    height: 26px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 36px;
+}

@@ -16,7 +16,7 @@ function popup() {
                 // 로그아웃 로직
             break
             case '질문사항':
-                router.push('/')
+                router.push('/qna')
             break
         }
     }
