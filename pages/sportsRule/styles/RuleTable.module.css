@@ -1,0 +1,33 @@
+.boxContainer{
+    /* border:1px solid yellow; */
+    
+}
+
+.chargeListTable {
+    margin:0 auto;
+    width: 821px;
+    padding: 0;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    /* 테이블 최상단에 border-collapse */
+    border-collapse: collapse;
+    color:white;
+    background-color: black;
+    
+}
+
+.chargeListTable tr {
+    height: 22px;
+    /* border:1px solid red; */
+    /* background-color: red; */
+}
+.chargeListTable thead{
+    border: 1px solid #FFF;
+    background: #AAA; 
+}
+.chargeListTable th,
+.chargeListTable td {
+    border: 1px solid white;
+    padding: 0;
+}

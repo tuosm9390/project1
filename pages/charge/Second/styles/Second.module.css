@@ -67,6 +67,7 @@
     height:42px;
     border:1px solid white;
     border-radius: 10px;
+    background-color: black;
 }
 
 .secondRowContainer .secondDivWrapper{
@@ -74,18 +75,23 @@
     height:42px;
     border:1px solid white;
     border-radius: 10px;
+    background-color: black;
+
 }
 .secondRowContainer .thirdDivWrapper{
     width: 104px;
     height:42px;
     border:1px solid white;
     border-radius: 10px;
+    background-color: black;
+
 }
 .secondRowContainer .fourthDivWrapper{
     width: 126px;
     height:42px;
     border:1px solid white;
     border-radius: 10px;
+
 }
 /* 세번째줄 */
 .thirdRowContainer{
@@ -97,6 +103,7 @@
     width: 83px;
     height:36px;
     border:1px solid white;
+    background-color: black;
     border-radius: 5px;
 }
 
@@ -135,11 +142,11 @@
     height: 150px;
     border:1px solid white;
     border-radius: 10px;
-    padding:31px 30px 38px 31px;
+    padding:21px 0px 13px 31px;
 }
 
 .fifthRowContainer .bigBoxInner{
-    height:79px;
+    height:114px;
     color: #FFF;
     font-family: Inter;
     font-size: 13px;

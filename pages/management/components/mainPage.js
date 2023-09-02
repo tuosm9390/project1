@@ -6,21 +6,21 @@ export default function mainPage(){
             <div className={styles.boxWrapper}>
                 {/* 첫번째 줄 */}
                 <div className={styles.titleContainer}>
-                    <div className={styles.titleText}>관리</div>
+                    <div className={styles.titleText}>지인 관리</div>
                 </div>
                 {/* 두번째 줄 */}
                 <div className={styles.inviteContainer}>
                     <div className={styles.inviteWrapper}>
-                        <div className={styles.textContainer}>초대하기</div>
+                        <div className={styles.textContainer}>지인 초대하기</div>
                         <div className={styles.inputContainer}>
                             <div className={styles.inputWrapper}>
                                 <input></input>
                             </div>
                             <button className={styles.inputBtn1}>
-                                <div>강강강강</div>
+                                <div>코드 생성</div>
                             </button>
                             <button className={styles.inputBtn1}>
-                                <div>강강</div>
+                                <div>복사</div>
                             </button>
                         </div>
                     </div>
@@ -41,8 +41,8 @@ export default function mainPage(){
                     <tr>
                         <th>회원 아이디</th>
                         <th>가입일</th>
-                        <th>강강강강강</th>
-                        <th>강강강강</th>
+                        <th>최근 접속일</th>
+                        <th>회원 상태</th>
                     </tr>
                 </thead>
                 <tbody>
