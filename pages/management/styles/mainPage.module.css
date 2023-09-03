@@ -77,8 +77,18 @@
     background-color: #000;
     color:white;
     border-radius: 5px;
+    padding:0px 9px;
 }
-
+.inputWrapper input::placeholder{
+    height: 11px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11px;
+}
 .inputBtn1{
     width: 107px;
     height: 40px;
@@ -107,6 +117,25 @@
     border-radius: 10px;
     border: 1px solid #FFF;
     background: #293047;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdRowWrapper{
+    width: 575px;
+    height: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.thirdRowWrapper div{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
 }
 /* 네번째 줄 */
 .chargeListTable {

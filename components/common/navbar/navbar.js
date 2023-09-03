@@ -61,7 +61,7 @@ function navbar() {
                             <li className={styles.loginMenu}>extra</li>
                             <li className={styles.loginMenu}>0원 0P</li>
                             <li className={styles.loginMenu} onClick={() => handleMyPage()}>화살표</li>
-                            <li className={styles.loginMenu} onClick={() => router.push('/charge')}>충전</li>
+                            <li className={styles.loginMenu} onClick={() => router.push('/charge/First')}>충전</li>
                             <li className={styles.loginMenu}>교환</li>
                             <li className={styles.loginMenu} onClick={() => handleLoginStatus()}>문의</li>
                             <li className={styles.loginMenu}>쪽지</li>
