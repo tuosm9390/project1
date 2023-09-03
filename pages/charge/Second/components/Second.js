@@ -18,10 +18,18 @@ export default function Second(){
             </div>
             {/* 두번째줄 */}
             <div className={styles.secondRowContainer}>
-                <button className={styles.firstDivWrapper}>0% 적용회원</button>
-                <button className={styles.secondDivWrapper}>입금 전용 롤링 100% 완료</button>
-                <button className={styles.thirdDivWrapper}>나의 롤링 확인 </button>
-                <button className={styles.fourthDivWrapper} style={{background:'#4169E1'}}>환전신청</button>
+                <button className={styles.firstDivWrapper}>
+                    <div>0% 적용회원</div>
+                </button>
+                <button className={styles.secondDivWrapper}>
+                    <div>입금 전용 롤링 100% 완료</div>
+                </button>
+                <button className={styles.thirdDivWrapper}>
+                    <div>나의 롤링 확인</div>
+                </button>
+                <button className={styles.fourthDivWrapper} style={{background:'#4169E1'}}>
+                    <div>환전신청</div>
+                </button>
             </div>
             {/* 세번째줄 */}
             <div className={styles.thirdRowContainer}>
@@ -37,7 +45,9 @@ export default function Second(){
                 <div className={styles.userAccInfoTextWrapper}>
                     <div className={styles.userAccInfoText}>회원 계좌 정보</div>
                 </div>
-                <div className={styles.userAccInfoBox}></div>
+                <div className={styles.userAccInfoBox}>
+                    <div>00은행/예금주000/351-0000-000000</div>
+                </div>
             </div>
             {/* 다섯번째 */}
             <div className={styles.fifthRowContainer}>

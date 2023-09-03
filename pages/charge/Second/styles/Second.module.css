@@ -76,6 +76,9 @@
     border:1px solid white;
     border-radius: 10px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .secondRowContainer .thirdDivWrapper{
@@ -92,6 +95,16 @@
     border:1px solid white;
     border-radius: 10px;
 
+}
+.secondRowContainer div{
+    height: 16px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
 }
 /* 세번째줄 */
 .thirdRowContainer{
@@ -134,8 +147,20 @@
     height:42px;
     border:1px solid white;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 11px;
 }
-
+.userAccInfoBox div{
+    height: 16px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
 /* 다섯번째 */
 .fifthRowContainer .bigBoxWrapper{
     width: 560px;

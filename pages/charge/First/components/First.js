@@ -29,19 +29,33 @@ function First() {
                         </div>
                         {/* 세번째줄 */}
                         <div className={styles.thirdRowContainer}>
-                            <button className={styles.boxItem}>1만</button>
-                            <button className={styles.boxItem}>5만</button>
-                            <button className={styles.boxItem}>10만</button>
-                            <button className={styles.boxItem}>50만</button>
-                            <button className={styles.boxItem}>100만</button>
-                            <button className={styles.boxItem} style={{ background: '#B22222', }}>정정</button>
+                            <button className={styles.boxItem}>
+                                <div>1만</div>
+                            </button>
+                            <button className={styles.boxItem}>
+                                <div>5만</div>
+                            </button>
+                            <button className={styles.boxItem}>
+                                <div>10만</div>
+                            </button>
+                            <button className={styles.boxItem}>
+                                <div>50만</div>
+                            </button>
+                            <button className={styles.boxItem}>
+                                <div>100만</div>
+                            </button>
+                            <button className={styles.boxItem} style={{ background: '#B22222', }}>
+                                <div>정정</div>
+                            </button>
                         </div>
                         {/* 네번째줄 */}
                         <div className={styles.fourthRowContainer}>
                             <div className={styles.userAccInfoTextWrapper}>
                                 <div className={styles.usrAccInfoText}>회원 계좌 정보</div>
                             </div>
-                            <div className={styles.userAccInfoBox}></div>
+                            <div className={styles.userAccInfoBox}>
+                                <div>00은행/예금주000/351-0000-000000</div>
+                            </div>
                         </div>
                         {/* 다섯번째 */}
                         <div className={styles.fifthRowContainer}>
@@ -88,7 +102,9 @@ function First() {
                         </div>
                         {/* 여덟번째 */}
                         <div className={styles.eighthRowContainer}>
-                            <button className={styles.startBtn}>충전신청</button>
+                            <button className={styles.startBtn}>
+                                <div>충전신청</div>
+                            </button>
                         </div>
                         {/* 아홉 */}
                         <div className={styles.ninethRowContainer}>

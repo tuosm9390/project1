@@ -47,7 +47,6 @@ export default function NewSideBar() {
                     </div>
                 </Link>
                 <Link
-                    // 추후 경로 수정
                     href='/sportsRule'
                     className={style.itemWrapper}
                     onClick={() => handleListItemClick(3)}
