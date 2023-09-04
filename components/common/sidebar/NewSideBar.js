@@ -23,7 +23,7 @@ export default function NewSideBar() {
                     // selected={selectedIndex === 1}
                     onClick={() => {
                         handleListItemClick(1)
-                        onClickTopBtn()
+                        // onClickTopBtn()
                     }}
                     style={{
                         backgroundColor: 1 === id ? ('#4169E1') : '#808080',
