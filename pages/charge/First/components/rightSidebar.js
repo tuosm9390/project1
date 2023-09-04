@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import styles from '../styles/rightSidebar.module.css'
 import { useRouter } from 'next/router'
-import { firstPageArr } from '../data/dataArr'
-import { secondPageArr } from '../data/dataArr'
-import { historyPageArr } from '../data/dataArr'
+import React, { useEffect, useState } from 'react'
+import { firstPageArr, historyPageArr, secondPageArr } from '../data/dataArr'
+import styles from '../styles/rightSidebar.module.css'
 
 function rightSidebar() {
     const router=useRouter()

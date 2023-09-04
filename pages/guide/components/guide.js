@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/guide.module.css";
 
-export default function guide() {
+export default function guide(props) {
   const [pageCondition, setPageCondition] = useState("condition1");
+  const type = props.type;
+  const content = props.content;
 
   return (
     <div className={styles.guideContainer}>
@@ -63,7 +65,7 @@ export default function guide() {
           }`}
         >
           <div className={styles.guideContentsHead}>
-            <h3>게임 가이드</h3>
+            {type === "game" ? <h3>게임 가이드</h3> : <h3>이용자 가이드</h3>}
           </div>
           <div className={styles.guideTableWrapper}></div>
         </div>
