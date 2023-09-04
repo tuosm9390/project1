@@ -5,7 +5,6 @@ import style from './SideBar.module.css'
 import Link from 'next/link';
 
 export default function SideBar() {
-    // const [selectedIndex, setSelectedIndex] = useState(1);
     const [open, setOpen] = useState(false)
     const [id, setId] = useState(1)
     const onClickTopBtn = () => { // 충전/내역 버튼 클릭시

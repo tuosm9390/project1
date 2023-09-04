@@ -42,9 +42,6 @@
     line-height: normal;
 }
 
-.setBlueColor {
-    background-color: blue;
-}
 
 .dropDownList {
     
@@ -69,6 +66,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* border:1px solid red; */
 }
 
