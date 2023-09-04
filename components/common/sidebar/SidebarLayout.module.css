@@ -1,0 +1,7 @@
+.sidebarContainer {
+    width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 36px;
+}

@@ -85,7 +85,7 @@ line-height: 16px;
 
 .secondRowContainer .secondDivWrapper{
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
     border:1px solid white;
     align-items: center;
     border-radius: 10px;

@@ -22,19 +22,18 @@ function rightSidebar() {
         }
     },[router.asPath])
     return (
-        <sidebar>
             <div className={styles.rightSidebarContainer}>
                 {/*받아온 데이터 배열의 content필드 랜더링 위한 2중 반복문 사용 */}
-                {dataArr.map((dataArrObj,i)=>{
+                {dataArr.map((dataArrObj,idx1)=>{
                     return(
-                        <div className={styles.rightSidebarWrapper}>
+                        <div key={idx1} className={styles.rightSidebarWrapper}>
                             <div className={styles.titleContainer}>
                                 {dataArrObj.title}
                             </div>
                             <div className={styles.contentContainer}>
-                                {dataArrObj.content.map((arrValue,i)=>{
+                                {dataArrObj.content.map((arrValue,idx2)=>{
                                     return (
-                                        <div>
+                                        <div key={idx2}>
                                             {arrValue}
                                         </div>
                                     )
@@ -44,7 +43,6 @@ function rightSidebar() {
                     )
                 })}
             </div>
-        </sidebar>
     )
 }
 
