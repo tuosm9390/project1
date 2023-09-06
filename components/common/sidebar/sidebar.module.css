@@ -1,10 +1,4 @@
-.sidebarContainer {
-    width: 1920px;
-    margin: auto;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 36px;
-}
+
 
 .boxWrapper {
     width: 245px;
@@ -12,9 +6,12 @@
 }
 
 .itemWrapper {
-    background-color: #808080;
     border-bottom: 1px solid black;
     padding: 9px 9px 10px 14px;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .itemInner {
@@ -26,16 +23,17 @@
 
 .itemText {
     color: #000;
-    font-family: Inter;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
+    
 }
 
 .itemIcon {
     color: #000;
-    font-family: Inter;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -44,26 +42,30 @@
 
 
 .dropDownList {
+    
 }
 
 .dropDownInner {}
 
 .dropDownItem {
-    
+    background-color: white;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .dropDownItemInner {
     padding: 8px 144px 9px 54px;
+    
 }
 
 .dropDownText {
     width: 180px;
     height: 16px;
     color: #000;
-    font-family: Inter;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 16px;
 }
 

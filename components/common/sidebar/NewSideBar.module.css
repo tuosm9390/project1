@@ -26,19 +26,19 @@
 
 .itemText {
     color: #000;
-    font-family: Inter;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
 }
 
 .itemIcon {
     color: #000;
-    font-family: Inter;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -61,7 +61,8 @@
 .dropDownText {
     height: 16px;
     color: #000;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

@@ -19,7 +19,8 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .titleContainer div{
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -48,7 +49,8 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .helloMsgContainer .text1{
     color: #000;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -57,7 +59,8 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 
 .helloMsgContainer .text2{
     color: #000;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +110,8 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 
 .chattingBtnWrapper button div{
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
