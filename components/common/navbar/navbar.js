@@ -8,6 +8,7 @@ function navbar() {
   const [loginStatus, setLoginStatus] = useState(false);
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const [myPageIsOpen, setMyPageIsOpen] = useState(false);
+  const [sidebarIsOpen, setSidebarIsOpen] = useState(true);
 
   const router = useRouter();
 
@@ -19,7 +20,9 @@ function navbar() {
   };
 
   // 사이드바 숨김/표시
-  const handleSidebar = () => {};
+  const handleSidebar = (e) => {
+    setSidebarIsOpen(!sidebarIsOpen)
+  };
 
   // 전메뉴 숨김/표시
   const handleAllMenu = (e) => {
@@ -102,7 +105,7 @@ function navbar() {
 
       {/* 사이드 고정메뉴바 */}
       <aside className={styles.sidebarContainer}>
-        <ul className={styles.sidebar}>
+        <ul className={`${styles.sidebar} ${sidebarIsOpen == true && styles.sidebarIsOpen}`}>
           <li></li>
           <li></li>
           <li></li>
@@ -110,7 +113,7 @@ function navbar() {
           <li></li>
           <li></li>
           <li></li>
-          <li onClick={() => handleSidebar()}></li>
+          <li onClick={(e) => handleSidebar(e)}></li>
         </ul>
       </aside>
     </nav>

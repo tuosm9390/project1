@@ -15,7 +15,7 @@ export default function historyTable(props) {
     } else if (tableStyle == 'condition5') {
         thList = ['', '', '', '', '', '', '']
         tdList = ['', '', '', '', '', '', '']
-        colSize = ['92px', '85px', '83px', '163px', '189px', '182px', '54px']
+        colSize = ['92px', '84px', '83px', '163px', '189px', '182px', '54px']
     } else {
         thList = ['', '', '', '', '', '']
         tdList = ['', '', '', '', '', '']

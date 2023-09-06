@@ -110,6 +110,13 @@
     height: 70px;
     background-color: #D9D9D9;
     border-radius: 50%;
+    transition: 0.2s;
+}
+
+.sidebar:not(.sidebarIsOpen) li:not(:last-child) {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(70px);
 }
 
 .sidebar li:not(:last-child):hover {
