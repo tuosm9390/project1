@@ -44,7 +44,6 @@
 
 
 .dropDownList {
-    
 }
 
 .dropDownInner {}
@@ -58,13 +57,13 @@
 }
 
 .dropDownText {
-    width: 250px;
+    width: 180px;
     height: 16px;
     color: #000;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 16px;
 }
 

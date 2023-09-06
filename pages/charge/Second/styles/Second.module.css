@@ -6,7 +6,10 @@
 .boxContainer{
     width: 600px;
     height: 438px;
-    background-color: black;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
     border-radius: 30px;
     padding:36px 20px 20px 20px;
 }
@@ -38,6 +41,9 @@
     align-items: center;
     justify-content: space-between;
     padding:12px 11px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .firstRowContainer .secondDivWrapper{
@@ -55,6 +61,9 @@
     font-weight: 700;
     line-height: normal;
     padding:12px 11px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 /* 두번째줄 */
 
@@ -68,6 +77,8 @@
     border:1px solid white;
     border-radius: 10px;
     background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .secondRowContainer .secondDivWrapper{
@@ -79,6 +90,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 
 }
 .secondRowContainer .thirdDivWrapper{
@@ -87,6 +100,8 @@
     border:1px solid white;
     border-radius: 10px;
     background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 
 }
 .secondRowContainer .fourthDivWrapper{
@@ -94,7 +109,10 @@
     height:42px;
     border:1px solid white;
     border-radius: 10px;
-
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .secondRowContainer div{
     height: 16px;
@@ -118,6 +136,8 @@
     border:1px solid white;
     background-color: black;
     border-radius: 5px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .boxItem div{
     color:white;
@@ -160,6 +180,9 @@
     display: flex;
     align-items: center;
     padding: 0px 11px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .userAccInfoBox div{
     height: 16px;
@@ -178,6 +201,9 @@
     border:1px solid white;
     border-radius: 10px;
     padding:21px 0px 13px 31px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .fifthRowContainer .bigBoxInner{
@@ -188,4 +214,5 @@
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
+    
 }

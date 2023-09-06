@@ -5,6 +5,10 @@
     background-color: black;
     border-radius: 30px;
     padding:34px 22px 19px 21px;
+    background-color: rgba(255,255,255,0.13);
+backdrop-filter: blur(3px);
+border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .boxWrapper{
@@ -38,6 +42,8 @@
     border: 1px solid #FFF;
     background: #293047;
     padding:15px 21px 11px 21px;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .inviteContainer .inviteWrapper{
@@ -96,6 +102,8 @@
     border-radius: 5px;
     border: 1px solid #FFF;
     background: #4169E1;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .inputBtn1 div{
@@ -120,6 +128,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .thirdRowWrapper{
     width: 575px;
@@ -148,6 +158,9 @@
     /* 테이블 최상단에 border-collapse */
     border-collapse: collapse;
     color:white;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .chargeListTable tr {
