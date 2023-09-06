@@ -9,8 +9,6 @@
     /* background-color: #39648D; */
     border-radius: 30px;
     padding:36px 20px 20px 20px;
-    
-
     background-color: rgba(255,255,255,0.13);
     backdrop-filter: blur(3px);
     border: 2px solid rgba(255,255,255,0.1);
@@ -34,7 +32,7 @@
 }
 .firstRowInput::placeholder{
     color: #FFF;
-    font-family: Inter;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -43,41 +41,37 @@
 .inputContainer{
     width:418px;
     height:42px;
-    border:1px solid white;
+    /* border:1px solid white; */
     border-radius: 10px;
 }
 .inputContainer .firstRowInput{
     width:418px;
     height:100%;
     border-radius: 10px;
-    /* background-color: black; */
     color:white;
-    
-background-color: rgba(255,255,255,0.13);
-backdrop-filter: blur(10px);
-border: 2px solid rgba(255,255,255,0.1);
-box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    background-color: gray;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .btnContainer{
     width:126px;
     height:42px;
     border:1px solid white;
-    background-color: rgba(26, 116, 226, 0.673);
-    /* backdrop-filter: blur(10px);
+    background-color: #1A74E2;
     border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6); */
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
     border-radius: 10px;
 
 }
 .btnContainer div{
     height: 16px;
-flex-shrink: 0;
-color: #FFF;
-font-family: Inter;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: 16px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
 }
 /* 두번째 줄 */
 .secondRowContainer .firstDivWrapper{
@@ -86,7 +80,8 @@ line-height: 16px;
     width:272px;
     height:42px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -95,6 +90,9 @@ line-height: 16px;
     align-items: center;
     justify-content: space-between;
     padding:12px 11px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .secondRowContainer .secondDivWrapper{
@@ -106,12 +104,16 @@ line-height: 16px;
     width:272px;
     height:42px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding:12px 11px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .secondRowContainer{
@@ -148,16 +150,16 @@ line-height: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255,255,255,0.13);
-backdrop-filter: blur(10px);
-border: 2px solid rgba(255,255,255,0.1);
-box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
 .boxItem div{
     height: 17px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -177,8 +179,10 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .fourthRowContainer .usrAccInfoText{
-    color: #FFF;
-    font-family: Inter;
+    color: #FF8C00;
+
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -193,12 +197,16 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     display: flex;
     padding:0px 10px;
     align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .userAccInfoBox div{
     height: 16px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -221,15 +229,20 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .fifthRowContainer .selectBoxInner{
     height: 18px;
     line-height: 18px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
+    
 }
 .fifthRowContainer .pointBoxContainer{
     width: 170px;   
@@ -240,11 +253,15 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .fifthRowContainer .pointBoxInner{
     line-height: 18px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -258,12 +275,16 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .fifthRowContainer .firstBoxInner{
     width: 69px;
     height:18px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -280,10 +301,14 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .fifthRowContainer .secondBoxInner{
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -299,12 +324,16 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     border:1px solid white;
     border-radius: 10px;
     padding:21px 30px 20px 31px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .sixthRowContainer .bigBoxInner{
     height:79px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
@@ -314,7 +343,8 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 /* 일곱번째 줄 */
 .seventhRowContainer{
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -332,12 +362,17 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 
 .seventhRowText{
     text-align: center;
-    color: #B22222;
-    font-family: Inter;
+    color: #ff0000;
+    font-family: 'NanumSquareNeo-Variable';
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.seventhRowTitle{
+    color: #FF8C00;
+
 }
 
 /* 여덟번째 */
@@ -354,16 +389,16 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     border-radius: 10px;
     border: 1px solid #FFF;
     /* background: #1d9bf0; */
-    background-color: rgba(26, 116, 226, 0.673);
-    /* backdrop-filter: blur(10px);
+    background-color: rgb(26, 116, 226);
     border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6); */
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .startBtn div{
     height: 16px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -375,12 +410,16 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     border:1px solid white;
     border-radius: 10px;
     padding:21px 0px 23px 31px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .ninethRowContainer .ninethRowWrapper{
     height:79px;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 13px;
     font-style: normal;
     font-weight: 700;

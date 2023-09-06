@@ -8,7 +8,8 @@
     height: 26px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -18,7 +19,6 @@
 
 .contentContainer{
     height: 119px;
-    border: white 1px solid;
 }
 
 .contentWrapper{
@@ -47,6 +47,9 @@
     border: 1px solid #FFF;
     background: #4169E1;
     color:white;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    font-family: 'NanumSquareNeo-Variable';
 }
 
 .yourMoneyContainer{
@@ -60,13 +63,16 @@
     padding:6px 3px 6px 5px;
     display: flex;
     justify-content: space-between;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .yourMoneyContainer div{
     height: 11px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: Inter;
+        font-family: 'NanumSquareNeo-Variable';
+
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
@@ -86,4 +92,7 @@
     border: 1px solid #FFF;
     background: #4169E1;
     color:white;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    font-family: 'NanumSquareNeo-Variable';
 }
