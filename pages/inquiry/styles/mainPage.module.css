@@ -4,6 +4,10 @@
     border-radius: 30px;
     background-color: black;
     padding:34px 85px 20px 85px;
+    background-color: rgba(255,255,255,0.13);
+backdrop-filter: blur(3px);
+border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .boxWrapper{
@@ -32,6 +36,8 @@
     border-radius: 10px;
     background: #D9D9D9;
     margin-bottom: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 .helloMsgContainer{
     height:100%;
@@ -72,6 +78,8 @@
     height: 83px;
     flex-shrink: 0;
     border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .chattingInputWrapper input{
@@ -93,6 +101,8 @@
     flex-shrink: 0;
     border-radius: 10px;
     background: #4169E1;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .chattingBtnWrapper button div{
