@@ -1,4 +1,4 @@
-<<<<<<< HEAD @import url('https://rsms.me/inter/inter.css');
+@import url('https://rsms.me/inter/inter.css');
 
 html {
   font-family: 'Inter';
@@ -7,7 +7,6 @@ html {
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'Inter var';
-    =======@import url("https://rsms.me/inter/inter.css");
 
     html {
       font-family: "Inter";
@@ -16,7 +15,6 @@ html {
     @supports (font-variation-settings: normal) {
       html {
         font-family: "Inter var";
-        >>>>>>>098e4666c30c2ac7a6e133f27f34c6a1b8257f27
       }
     }
 
@@ -26,9 +24,8 @@ html {
       margin: 0;
       font-family: inter;
       /* font-family: 'SUITE-Regular'; */
-      <<<<<<< HEAD background-image: url('../img/black-370118_1920.png');
-      =======background-image: url("../img/black-370118_1920.png");
-      >>>>>>>098e4666c30c2ac7a6e133f27f34c6a1b8257f27 color: black;
+      background-image: url("../img/black-370118_1920.png");
+      color: black;
     }
 
     a {
@@ -130,3 +127,5 @@ html {
         url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff") format("woff"),
         url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf") format("truetype");
     }
+  }
+}
