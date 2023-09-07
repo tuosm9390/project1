@@ -12,9 +12,12 @@
 }
 
 .itemWrapper {
-    background-color: #808080;
     border-bottom: 1px solid black;
     padding: 9px 9px 10px 14px;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
 
 .itemInner {
@@ -62,7 +65,6 @@
     height: 16px;
     color: #000;
         font-family: 'NanumSquareNeo-Variable';
-
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

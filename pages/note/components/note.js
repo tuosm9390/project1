@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import styles from "../styles/note.module.css";
-import NoteTable from "./noteTable";
+import React, { useEffect, useState } from "react"
+import styles from "../styles/note.module.css"
+import NoteTable from "./noteTable"
 
 export default function note() {
-  const [pageCondition, setPageCondition] = useState("condition1");
+  const [pageCondition, setPageCondition] = useState("condition1")
 
   return (
     <div className={styles.noteContainer}>
@@ -68,5 +68,5 @@ export default function note() {
         </div>
       </div>
     </div>
-  );
+  )
 }
