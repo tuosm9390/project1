@@ -1,12 +1,10 @@
-import styles from '../styles/main.module.css'
+import styles from "../styles/main.module.css"
 
 function main() {
   return (
     // 로그인 전/후
     <section className={styles.mainSectionContainer}>
-      <header className={styles.header}>
-        LIVE
-      </header>
+      <header className={styles.header}>LIVE</header>
 
       {/* 파란색 공지사항 */}
       <section className={styles.notibarContainer}>
@@ -24,14 +22,18 @@ function main() {
         {/* 최근게임 */}
         <div className={styles.contentsSection}>
           <div className={styles.recentFavoriteContainer}>
-            <h2 style={{ marginRight: '7px', fontSize: '20px', fontWeight: '700' }}>최근게임</h2>
+            <h2
+              style={{
+                marginRight: "7px",
+                fontSize: "20px",
+                fontWeight: "700",
+              }}
+            >
+              최근게임
+            </h2>
             <div className={styles.recentFavorite}>
-              <div className={styles.recent}>
-                최신게임
-              </div>
-              <div className={styles.favorite}>
-                즐겨찾기
-              </div>
+              <div className={styles.recent}>최신게임</div>
+              <div className={styles.favorite}>즐겨찾기</div>
             </div>
           </div>
           <div>
@@ -42,9 +44,11 @@ function main() {
         <div className={styles.contentsSection}>
           <div className={styles.gridContentsTitle}>
             <div>
-              <h2 style={{ fontSize: '20px', fontWeight: '700' }}>게임1</h2>
+              <h2 style={{ fontSize: "20px", fontWeight: "700" }}>게임1</h2>
             </div>
-            <div style={{ borderBottom: '1px solid white', width: '1077px' }}></div>
+            <div
+              style={{ borderBottom: "1px solid white", width: "1077px" }}
+            ></div>
           </div>
           <div className={styles.gridContents}>
             <div className={styles.gridBox}>

@@ -27,7 +27,7 @@ export default function Second(){
                 <button className={styles.thirdDivWrapper}>
                     <div>나의 롤링 확인</div>
                 </button>
-                <button className={styles.fourthDivWrapper} style={{background:'#4169E1'}}>
+                <button className={styles.fourthDivWrapper} style={{background:'#1a74e2'}}>
                     <div>환전신청</div>
                 </button>
             </div>

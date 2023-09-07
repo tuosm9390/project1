@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #4169E1;
+  border: 1px solid #4169e1;
   position: relative;
   border-radius: 20px;
   width: 700px;
@@ -47,7 +47,7 @@
 .banner {
   width: 320px;
   height: 120px;
-  background-color: #4169E1;
+  background-color: #4169e1;
   border-radius: 10px;
 }
 
@@ -65,7 +65,7 @@
 
 .signUpBtn {
   color: white;
-  background-color: #4169E1;
+  background-color: #4169e1;
   border: none;
   width: 200px;
   height: 42px;
