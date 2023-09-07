@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+<<<<<<< HEAD @import url('https://rsms.me/inter/inter.css');
 
 html {
   font-family: 'Inter';
@@ -7,113 +7,126 @@ html {
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'Inter var';
-  }
-}
+    =======@import url("https://rsms.me/inter/inter.css");
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: inter;
-  /* font-family: 'SUITE-Regular'; */
-  background-image: url('../img/black-370118_1920.png');
-  color: black;
-}
+    html {
+      font-family: "Inter";
+    }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+    @supports (font-variation-settings: normal) {
+      html {
+        font-family: "Inter var";
+        >>>>>>>098e4666c30c2ac7a6e133f27f34c6a1b8257f27
+      }
+    }
 
-* {
-  box-sizing: border-box;
-}
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: inter;
+      /* font-family: 'SUITE-Regular'; */
+      <<<<<<< HEAD background-image: url('../img/black-370118_1920.png');
+      =======background-image: url("../img/black-370118_1920.png");
+      >>>>>>>098e4666c30c2ac7a6e133f27f34c6a1b8257f27 color: black;
+    }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-  body {
-    color: white;
-    /* background: black; */
-  }
-}
+    * {
+      box-sizing: border-box;
+    }
 
+    @media (prefers-color-scheme: dark) {
+      html {
+        color-scheme: dark;
+      }
 
-@font-face {
-  font-family: 'SUITE-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
+      body {
+        color: white;
+        /* background: black; */
+      }
+    }
 
-/* 메인 */
-@font-face {
-  font-family: 'NanumSquareNeo-Variable';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+    @font-face {
+      font-family: "SUITE-Regular";
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+    }
 
-@font-face {
-  font-family: "nexon";
-  src: url("../public/asset/font/nexon.otf") format("truetype");
-}
+    /* 메인 */
+    @font-face {
+      font-family: "NanumSquareNeo-Variable";
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2") format("woff2");
+      font-weight: normal;
+      font-style: normal;
+    }
 
-@font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
+    @font-face {
+      font-family: "nexon";
+      src: url("../public/asset/font/nexon.otf") format("truetype");
+    }
 
-@font-face {
-  font-family: "hakgyo";
-  src: url("../public/asset/font/HakgyoansimDoldamM.ttf") format("truetype");
-}
+    @font-face {
+      font-family: "Pretendard-Regular";
+      src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+      font-weight: 400;
+      font-style: normal;
+    }
 
-@font-face {
-  font-family: "jamsil";
-  src: url("../public/asset/font/TheJamsil3Regular.ttf") format("truetype");
-}
+    @font-face {
+      font-family: "hakgyo";
+      src: url("../public/asset/font/HakgyoansimDoldamM.ttf") format("truetype");
+    }
 
-@font-face {
-  font-family: "scdream";
-  src: url("../public/asset/font/SCDream5.otf") format("truetype");
-}
+    @font-face {
+      font-family: "jamsil";
+      src: url("../public/asset/font/TheJamsil3Regular.ttf") format("truetype");
+    }
 
-@font-face {
-  font-family: "KBOGothic";
-  src: url("../public/asset/font/KBODiaGothic_medium.ttf") format("truetype");
-}
+    @font-face {
+      font-family: "scdream";
+      src: url("../public/asset/font/SCDream5.otf") format("truetype");
+    }
 
-@font-face {
-  font-family: "Gmarket";
-  src: url("../public/asset/font/GmarketSansTTFMedium.ttf") format("truetype");
-}
+    @font-face {
+      font-family: "KBOGothic";
+      src: url("../public/asset/font/KBODiaGothic_medium.ttf") format("truetype");
+    }
 
-@font-face {
-  font-family: "ESAMANRU";
-  src: url("../public/asset/font/esamanru\ Medium.ttf") format("truetype");
-}
+    @font-face {
+      font-family: "Gmarket";
+      src: url("../public/asset/font/GmarketSansTTFMedium.ttf") format("truetype");
+    }
 
-@font-face {
-  font-family: "pretendard";
-  src: url("../public/asset/font/Pretendard-Regular.woff") format("truetype");
-}
+    @font-face {
+      font-family: "ESAMANRU";
+      src: url("../public/asset/font/esamanru\ Medium.ttf") format("truetype");
+    }
 
-@font-face {
-  font-family: 'LINESeedKR-Bd';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-}
+    @font-face {
+      font-family: "pretendard";
+      src: url("../public/asset/font/Pretendard-Regular.woff") format("truetype");
+    }
 
-@font-face {
-  font-family: 'NanumBarunGothic';
-  font-style: normal;
-  font-weight: 400;
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
-}
+    @font-face {
+      font-family: "LINESeedKR-Bd";
+      src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: "NanumBarunGothic";
+      font-style: normal;
+      font-weight: 400;
+      src: url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot");
+      src:
+        url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix") format("embedded-opentype"),
+        url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff") format("woff"),
+        url("//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf") format("truetype");
+    }
