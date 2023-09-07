@@ -1,19 +1,19 @@
-import styles from './footer.module.css'
+import styles from "./footer.module.css"
 
 function menu() {
-    return (
-        // footer 전체메뉴
-        <div className={styles.footerMenuContainer}>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    )
+  return (
+    // footer 전체메뉴
+    <div className={styles.footerMenuContainer}>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  )
 }
 
 export default menu

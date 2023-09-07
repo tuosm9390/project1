@@ -1,10 +1,15 @@
 .loginContainer {
   width: 890px;
-  height: 790px;
-  background-color: white;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+
+  border-radius: 30px;
+  background-color: #2d3250;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
 }
 
 .loginInnerWrapper {
@@ -21,7 +26,7 @@
 
 .loginIcon {
   position: absolute;
-  top: -50px;
+  top: -75px;
 
   width: 100px;
   height: 100px;
@@ -31,30 +36,68 @@
   justify-content: center;
   align-items: center;
   z-index: 99;
+  position: relative;
+}
+
+.closeBtnWrapper {
+  position: absolute;
+  z-index: 9999;
+  top: 10px;
+  right: 20px;
+}
+
+.closeBtn {
+  height: 50px;
 }
 
 .inputId {
+  height: 50px;
+}
+
+.inputIdLabel {}
+
+.inputIdText {
+  background-color: #424769;
+  border: none;
+  height: 50px;
 }
 
 .inputPwd {
+  height: 50px;
 }
 
 .loginBtn {
-  color: white;
-  background-color: #4169E1;
-  border: none;
+  color: #2d3250;
+  /* background-color: #4169E1; */
+  background-color: #f9b17a;
+  box-shadow: 0 0 15px rgba(249, 177, 122, 0.6);
+  border: 1px solid rgba(249, 177, 122, 0.1);
+  border-radius: 5px;
   width: 200px;
   height: 42px;
   font-size: 25px;
   text-align: center;
 }
 
+.loginBtn:hover {
+  transition: 0.2s;
+  scale: 1.05;
+}
+
 .signUpBtn {
-  color: white;
-  background-color: #4169E1;
-  border: none;
+  color: #2d3250;
+  /* background-color: #4169E1; */
+  background-color: #f9b17a;
+  box-shadow: 0 0 15px rgba(249, 177, 122, 0.6);
+  border: 1px solid rgba(249, 177, 122, 0.1);
+  border-radius: 5px;
   width: 200px;
   height: 42px;
   font-size: 25px;
   text-align: center;
+}
+
+.signUpBtn:hover {
+  transition: 0.2s;
+  scale: 1.05;
 }

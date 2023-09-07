@@ -1,25 +1,29 @@
-import Link from "next/link";
-import React from "react";
-import styles from "../styles/login.module.css";
+import { faXmark } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Link from "next/link"
+import React from "react"
+import styles from "../styles/login.module.css"
 
 export default function login() {
   return (
     <div className={styles.loginContainer}>
+      <div className={styles.closeBtnWrapper}>
+        <FontAwesomeIcon icon={faXmark} className={styles.closeBtn} />
+      </div>
       <div className={styles.loginInnerWrapper}>
         <div className={styles.loginIcon} />
-        <div className={styles.closeBtn}>
-          <button>x</button>
-        </div>
         <div className={styles.loginTitle}>
           <h1>로그인</h1>
         </div>
 
         <div className={styles.inputId}>
-          <label for="id">아이디</label>
-          <input id="id" type="text"></input>
+          <label className={styles.inputIdLabel} htmlFor="id">
+            아이디
+          </label>
+          <input className={styles.inputIdText} id="id" type="text"></input>
         </div>
         <div className={styles.inputPwd}>
-          <label for="pwd">비밀번호</label>
+          <label htmlFor="pwd">비밀번호</label>
           <input id="pwd" type="password"></input>
         </div>
 
@@ -42,5 +46,5 @@ export default function login() {
         </Link>
       </div>
     </div>
-  );
+  )
 }

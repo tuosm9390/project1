@@ -9,12 +9,9 @@
     margin-left: 200px;
 }
 
-.leftSidebarContainer .sidebarWrapper .profile {
-    
-}
+.leftSidebarContainer .sidebarWrapper .profile {}
 
-.leftSidebarContainer .sidebarWrapper .contentsBox {
-}
+.leftSidebarContainer .sidebarWrapper .contentsBox {}
 
 .leftSidebarContainer .sidebarWrapper .banner {
     display: grid;
@@ -30,5 +27,21 @@
     width: 120px;
     height: 120px;
     border-radius: 20px;
-    background-color: #808080;
+    background-color: #f9b17a;
+}
+
+.leftSidebarContainer .sidebarWrapper .banner div:nth-child(2) {
+    background-color: skyblue;
+    background-image: url('../../../public/asset/images/텔레그램이미지.jpeg');
+    background-size: contain;
+}
+
+.leftSidebarContainer .sidebarWrapper .banner div:nth-child(3) {
+    background-color: gold;
+    background-image: url('../../../public/asset/images/카카오톡이미지.png');
+    background-size: contain;
+}
+
+.leftSidebarContainer .sidebarWrapper .banner div:nth-child(4) {
+    background-color: rgb(3, 149, 216);
 }

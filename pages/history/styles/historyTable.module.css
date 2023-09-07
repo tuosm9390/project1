@@ -5,6 +5,10 @@
     text-align: center;
     /* 테이블 최상단에 border-collapse */
     border-collapse: collapse;
+
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
 }
 
 .historyListTable tr {

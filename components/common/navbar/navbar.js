@@ -1,46 +1,49 @@
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
-import Menu from "../footer/menu";
-import styles from "./navbar.module.css";
-import Popup from "./popup";
+import Link from "next/link"
+import { useRouter } from "next/router"
+import React, { useEffect, useState } from "react"
+import Menu from "../footer/menu"
+import styles from "./navbar.module.css"
+import Popup from "./popup"
 
 function navbar() {
-  const [loginStatus, setLoginStatus] = useState(false);
-  const [menuIsOpen, setMenuIsOpen] = useState(false);
-  const [myPageIsOpen, setMyPageIsOpen] = useState(false);
-  const [sidebarIsOpen, setSidebarIsOpen] = useState(true);
+  const [loginStatus, setLoginStatus] = useState(false)
+  const [menuIsOpen, setMenuIsOpen] = useState(false)
+  const [myPageIsOpen, setMyPageIsOpen] = useState(false)
+  const [sidebarIsOpen, setSidebarIsOpen] = useState(true)
 
-  const router = useRouter();
+  const router = useRouter()
 
   // 로그인 상태 변경
   const handleLoginStatus = () => {
-    setLoginStatus(!loginStatus);
-    setMyPageIsOpen(false);
-    setMenuIsOpen(false);
-  };
+    setLoginStatus(!loginStatus)
+    setMyPageIsOpen(false)
+    setMenuIsOpen(false)
+  }
 
   // 사이드바 숨김/표시
   const handleSidebar = (e) => {
     setSidebarIsOpen(!sidebarIsOpen)
-  };
+  }
 
   // 전메뉴 숨김/표시
   const handleAllMenu = (e) => {
-    setMenuIsOpen(!menuIsOpen);
-  };
+    setMenuIsOpen(!menuIsOpen)
+  }
 
   // 화살표 숨김/표시
   const handleMyPage = () => {
-    setMyPageIsOpen(!myPageIsOpen);
-  };
+    setMyPageIsOpen(!myPageIsOpen)
+  }
 
   return (
     <nav className={styles.navbarContainer}>
       <div className={styles.navbar}>
-        <div className={styles.logoBox}>
-          {/* <img src='' alt='' /> */}
-          로고
-        </div>
+        <Link href={"/main"}>
+          <div className={styles.logoBox}>
+            {/* <img src='' alt='' /> */}
+            로고
+          </div>
+        </Link>
         {/* 메뉴 리스트 */}
         <ul className={styles.navbarList}>
           {loginStatus !== true ? (
@@ -105,7 +108,11 @@ function navbar() {
 
       {/* 사이드 고정메뉴바 */}
       <aside className={styles.sidebarContainer}>
-        <ul className={`${styles.sidebar} ${sidebarIsOpen == true && styles.sidebarIsOpen}`}>
+        <ul
+          className={`${styles.sidebar} ${
+            sidebarIsOpen == true && styles.sidebarIsOpen
+          }`}
+        >
           <li></li>
           <li></li>
           <li></li>
@@ -117,7 +124,7 @@ function navbar() {
         </ul>
       </aside>
     </nav>
-  );
+  )
 }
 
-export default navbar;
+export default navbar
