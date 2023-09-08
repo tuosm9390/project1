@@ -1,9 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
 
-html {
-  font-family: 'Inter';
-}
-
 @supports (font-variation-settings: normal) {
   html {
     font-family: 'Inter var';
@@ -15,9 +11,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: inter;
-  /* font-family: 'SUITE-Regular'; */
+  font-family: 'NanumSquareNeo-Variable';
+
   background-image: url('../img/black-370118_1920.png');
   color: black;
+
+  overflow-x: hidden;
+  position: relative;
 }
 
 a {

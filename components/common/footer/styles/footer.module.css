@@ -7,24 +7,7 @@
     height: 367px;
     margin: auto;
     width: 1920px;
-}
-
-.footerContainer .footerMenuContainer,
-.footerMenuContainer {
-    height: 267px;
-    border-bottom: 1px solid white;
-    width: 1184px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
-}
-
-.footerContainer .footerMenuContainer div,
-.footerMenuContainer div {
-    border: 1px solid white;
-    width: 150px;
-    border-collapse: separate;
+    color: white;
 }
 
 .copyright {

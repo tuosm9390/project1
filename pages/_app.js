@@ -1,13 +1,12 @@
-import { useRouter } from "next/router";
-import Layout from "../components/common/Layout";
-import styles from "../styles/Home.module.css";
-import "../styles/globals.css";
-import Login from "./login/components/login";
+import { useRouter } from "next/router"
+import Layout from "../components/common/Layout"
+import styles from "../styles/Home.module.css"
+import "../styles/globals.css"
+import Login from "./login/components/login"
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter();
-  const pathName = router.pathname;
-  console.log("pathName", pathName);
+  const router = useRouter()
+  const pathName = router.pathname
 
   return (
     <>
@@ -18,14 +17,18 @@ function MyApp({ Component, pageProps }) {
       ) : (
         <Layout>
           <main
-            className={pathName == "/main" ? styles.main : `${styles.noneMain}`}
+            className={
+              pathName == "/main" || pathName == "/notice"
+                ? styles.main
+                : `${styles.noneMain}`
+            }
           >
             <Component {...pageProps} />
           </main>
         </Layout>
       )}
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

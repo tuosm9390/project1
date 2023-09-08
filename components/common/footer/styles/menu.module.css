@@ -1,0 +1,28 @@
+.footerMenuContainer {
+  height: 267px;
+  width: 1184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.footerMenuContainer div {
+  border: 1px solid white;
+  width: 150px;
+  border-collapse: separate;
+  padding: 5px;
+}
+
+.footerMenuContainer li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.qnaListWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
