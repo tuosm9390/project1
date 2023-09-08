@@ -2,4 +2,54 @@
     height: 71px;
     border-bottom: 1px solid white;
     width: 100%;
+    display: flex;
+}
+
+.boxWrapper {
+    display: flex;
+    position: relative;
+    min-width: 1920px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+/* animation */
+.toLeft {
+    animation: moveToLeft 30s linear infinite;
+    /* animation-play-state: paused; */
+}
+
+.to_right {
+    transform: translateX(-130px);
+    animation: moveToRight 20s linear infinite;
+    /* animation-play-state: paused; */
+}
+
+/* .partners_list_wrapper:hover>div {
+    animation-play-state: running;
+} */
+
+@keyframes moveToLeft {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -3840px;
+    }
+}
+
+@keyframes moveToRight {
+    0% {
+        left: -1763px;
+    }
+
+    100% {
+        left: 0;
+    }
 }

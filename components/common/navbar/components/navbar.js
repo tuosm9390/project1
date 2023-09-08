@@ -30,6 +30,8 @@ function navbar() {
     setMenuIsOpen(!menuIsOpen)
   }
 
+  useEffect(() => {}, [menuIsOpen])
+
   // 화살표 숨김/표시
   const handleMyPage = () => {
     setMyPageIsOpen(!myPageIsOpen)
@@ -60,7 +62,6 @@ function navbar() {
                 로그인
               </li>
               <li className={styles.guestMenu}>회원가입</li>
-              <li className={styles.guestMenu}>이벤트/공지사항</li>
             </>
           ) : (
             <>
@@ -74,7 +75,7 @@ function navbar() {
                 className={styles.loginMenu}
                 onClick={() => router.push("/charge/First")}
               >
-                충전
+                <Link href={"/charge/First"}>충전</Link>
               </li>
               <li className={styles.loginMenu}>교환</li>
               <li
@@ -84,26 +85,54 @@ function navbar() {
                 문의
               </li>
               <li className={styles.loginMenu}>쪽지</li>
-              <li className={styles.loginMenu}>이벤트/공지사항</li>
             </>
           )}
+          <li className={styles.loginMenu}>
+            <Link href={"/notice"}>이벤트/공지사항</Link>
+          </li>
         </ul>
       </div>
       {/* 화살표 숨김/표시 */}
-      <div className={styles.myPage}>{myPageIsOpen && <Popup />}</div>
+      <div
+        className={`${styles.myPage} ${myPageIsOpen && styles.myPageIsOpen}`}
+        onMouseLeave={() => setMyPageIsOpen(false)}
+      >
+        {myPageIsOpen && <Popup />}
+      </div>
       <div className={styles.submenu}>
         <ul className={styles.submenuList}>
-          <li onClick={(e) => handleAllMenu(e)}>전메뉴</li>
-          <li>게임1</li>
-          <li>게임2</li>
-          <li>게임3</li>
-          <li>게임4</li>
-          <li>게임5</li>
-          <li>게임6</li>
-          <li>게임7</li>
+          <li>
+            <span onClick={(e) => handleAllMenu(e)}>전메뉴</span>
+          </li>
+          <li>
+            <span>게임1</span>
+          </li>
+          <li>
+            <span>게임2</span>
+          </li>
+          <li>
+            <span>게임3</span>
+          </li>
+          <li>
+            <span>게임4</span>
+          </li>
+          <li>
+            <span>게임5</span>
+          </li>
+          <li>
+            <span>게임6</span>
+          </li>
+          <li>
+            <span>게임7</span>
+          </li>
         </ul>
         {/* 전메뉴 숨김/표시 */}
-        <div className={styles.allMenu}>{menuIsOpen && <Menu />}</div>
+        <div
+          className={`${styles.allMenu} ${menuIsOpen && styles.menuIsOpen}`}
+          onMouseLeave={() => setMenuIsOpen(false)}
+        >
+          {menuIsOpen && <Menu />}
+        </div>
       </div>
 
       {/* 사이드 고정메뉴바 */}

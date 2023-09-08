@@ -41,6 +41,19 @@
     width: 50px;
     height: 36px;
     margin-right: 14px;
+    cursor: pointer;
+
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.navbarList li:hover {
+    transition: 0.2s ease;
+    scale: 1.05;
+    background-color: rgb(65, 105, 225, 0.5);
 }
 
 .navbarList li.guestMenu:nth-child(6),
@@ -61,6 +74,16 @@
     font-size: 15px;
     font-weight: 400;
     margin-right: 0;
+}
+
+.myPage {
+    transition: 0.3s;
+}
+
+.myPage:not(.myPageIsOpen) {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-15px);
 }
 
 .submenu {
@@ -89,6 +112,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.submenuList li span {
+    transition: ease-in 0.1s;
+    cursor: pointer;
+}
+
+.submenuList li span:hover {
+    text-shadow: 0 0 20px white;
+    /* color: rgb(65, 105, 225); */
 }
 
 /* .submenuList li:nth-child(odd) {
@@ -150,9 +183,19 @@
 
 .allMenu {
     position: absolute;
-    top: 157px;
+    top: 150px;
     z-index: 999;
+    transition: 0.3s;
     background-color: black;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.allMenu:not(.menuIsOpen) {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-15px);
+    border-radius: 10px;
+
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
 }
