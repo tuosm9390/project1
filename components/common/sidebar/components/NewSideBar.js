@@ -27,7 +27,7 @@ export default function NewSideBar() {
             // onClickTopBtn();
           }}
           style={{
-            backgroundColor: 1 === id ? "#4169E1" : "#808080",
+            backgroundColor: 1 === id ? "#1a74e2" : null,
             display: "block",
           }}
         >
@@ -41,7 +41,7 @@ export default function NewSideBar() {
           className={style.itemWrapper}
           onClick={() => handleListItemClick(2)}
           style={{
-            backgroundColor: 2 === id ? "#4169E1" : "#808080",
+            backgroundColor: 2 === id ? "#1a74e2" : null,
             display: "block",
           }}
         >
@@ -54,7 +54,7 @@ export default function NewSideBar() {
           className={style.itemWrapper}
           onClick={() => handleListItemClick(3)}
           style={{
-            backgroundColor: 3 === id ? "#4169E1" : "#808080",
+            backgroundColor: 3 === id ? "#1a74e2" : null,
             display: "block",
           }}
         >
@@ -67,7 +67,7 @@ export default function NewSideBar() {
           className={style.itemWrapper}
           onClick={() => handleListItemClick(4)}
           style={{
-            backgroundColor: 4 === id ? "#4169E1" : "#808080",
+            backgroundColor: 4 === id ? "#1a74e2" : null,
             display: "block",
           }}
         >
@@ -81,7 +81,7 @@ export default function NewSideBar() {
           className={style.itemWrapper}
           onClick={() => handleListItemClick(5)}
           style={{
-            backgroundColor: 5 === id ? "#4169E1" : "#808080",
+            backgroundColor: 5 === id ? "#1a74e2" : null,
             display: "block",
           }}
         >

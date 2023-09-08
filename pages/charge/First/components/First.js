@@ -1,10 +1,15 @@
 import React from "react"
 import styles from "../styles/First.module.css"
 import RightSidebar from "./rightSidebar"
+import Head from "next/head"
 function First() {
+
   return (
-    // sidebar 레이아웃
     <>
+      <Head>
+      <link rel="stylesheet prefetch" href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
+        </link>
+      </Head>
       <div className={styles.chargeContainer}>
         <div className={styles.chargeInnerWrapper}>
           <div className={styles.chargeInner}>
@@ -48,8 +53,8 @@ function First() {
                 <div>100만</div>
               </button>
               <button
-                className={styles.boxItem}
-                style={{ background: "#B22222" }}
+                className={styles.boxHover}
+                // style={{ background: "#B22222" }}
               >
                 <div>정정</div>
               </button>

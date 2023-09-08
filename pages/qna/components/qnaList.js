@@ -22,7 +22,7 @@ const dataArr = [
 export default function qnaList() {
   const [open, setOpen] = useState(false)
   const [id, setId] = useState(null)
-  const onClick = (id) => {
+  const onClickList = (id) => {
     setId(id)
     setOpen((prev) => !prev)
   }
@@ -30,17 +30,17 @@ export default function qnaList() {
   return (
     <div className={styles.boxContainer}>
       {dataArr.map((v, _) => (
-        <div
-          key={v.id}
-          className={styles.boxWrapper}
-          onClick={() => onClick(v.id)}
-        >
-          <div className={styles.titleContainer}>
-            <div>{v.title}</div>
+        <div key={v.id} className={styles.boxWrapper}>
+          <div className={styles.titleContainer} onClick={() => onClickList(v.id)}>
+            {v.title}
           </div>
-          {id === v.id && open && (
-            <div className={styles.contentContainer}>{v.content}</div>
-          )}
+          <div
+            className={`${styles.contentContainer} ${
+              id === v.id && open ? styles.open : ""
+            }`}
+          >
+            {v.content}
+          </div>
         </div>
       ))}
     </div>

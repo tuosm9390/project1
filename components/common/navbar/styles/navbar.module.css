@@ -185,9 +185,7 @@
     position: absolute;
     top: 150px;
     z-index: 999;
-
     transition: 0.3s;
-
     background-color: black;
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
 }
