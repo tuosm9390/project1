@@ -8,8 +8,16 @@
   backdrop-filter: blur(2px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  transition: 0.3s all;
+  color:white;
 }
+.itemWrapper:hover{
+  background-color: #1d9bf0;
+  transition: 0.3s all;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  /* color:black; */
 
+}
 .itemInner {
   display: flex;
   justify-content: space-between;
@@ -18,7 +26,6 @@
 }
 
 .itemText {
-  color: white;
   font-family: "NanumSquareNeo-Variable";
   font-size: 14px;
   font-style: normal;
@@ -36,6 +43,7 @@
 }
 
 .dropDownList {
+  transition: all 0.5s;
 }
 
 .dropDownInner {
@@ -47,6 +55,12 @@
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
 }
 
+.dropDownItem:hover{
+  background-color: #1d9bf0;
+  transition: 0.3s all;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  color:white;
+}
 .dropDownItemInner {
   padding: 8px 144px 9px 54px;
 }
@@ -54,10 +68,10 @@
 .dropDownText {
   width: 180px;
   height: 16px;
-  color: #000;
   font-family: "NanumSquareNeo-Variable";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
 }
+

@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      
       {pathName == "/" || pathName == "/signUp" ? (
         <main className={styles.main}>
           <Component {...pageProps} />

@@ -29,6 +29,11 @@
 .firstRowInput {
   width: 418px;
   padding: 12px 0px 12px 11px;
+  color:black;
+}
+.firstRowInput:focus{
+  outline:1px solid rgb(255, 255, 255);
+
 }
 .firstRowInput::placeholder {
   color: black;
@@ -48,10 +53,15 @@
   width: 418px;
   height: 100%;
   border-radius: 10px;
-  color: white;
   background-color: #aba9a9;
   border: 2px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  color: black;
+  font-family: "NanumSquareNeo-Variable";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .btnContainer {
   width: 126px;
@@ -173,7 +183,34 @@
   flex-shrink: 0;
   color: #fff;
   font-family: "NanumSquareNeo-Variable";
-
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+}
+.boxHover{
+  width: 83px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 5px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b22222;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.boxHover:hover{
+  background-color: #ea3636;
+  transition: 0.5s all;
+}
+.boxHover div{
+  height: 17px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "NanumSquareNeo-Variable";
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -345,7 +382,6 @@
   height: 79px;
   color: #fff;
   font-family: "NanumSquareNeo-Variable";
-
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -436,9 +472,10 @@
   height: 79px;
   color: #fff;
   font-family: "NanumSquareNeo-Variable";
-
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
 }
+
+
