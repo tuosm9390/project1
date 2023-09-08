@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
-import LeftSidebar from '../common/sidebar/leftSidebar'
-import Footer from './footer/footer'
-import Navbar from './navbar/navbar'
+import LeftSidebar from '../common/sidebar/components/leftSidebar'
+import Footer from './footer/components/footer'
+import Navbar from './navbar/components/navbar'
 
 
 const Layout = (props) => {

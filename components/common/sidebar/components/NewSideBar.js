@@ -2,7 +2,7 @@
 //16번 페이지 이후의 사이드바하고 내용 다름에 유의
 import Link from "next/link";
 import { useState } from "react";
-import style from "./NewSideBar.module.css";
+import style from "../styles/NewSideBar.module.css";
 
 export default function NewSideBar() {
   // const [selectedIndex, setSelectedIndex] = useState(1);

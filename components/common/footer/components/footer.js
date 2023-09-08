@@ -1,6 +1,6 @@
-import styles from './footer.module.css'
-import Menu from './menu'
+import styles from '../styles/footer.module.css'
 import Corporates from './corporates'
+import Menu from './menu'
 
 function footer() {
     return (

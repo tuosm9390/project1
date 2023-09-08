@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+import styles from "../styles/leftSidebar.module.css";
 import MyPage from "./MyPage";
 import NewSideBar from "./NewSideBar";
 import SideBar from "./SideBar";
-import styles from "./leftSidebar.module.css";
 
 function leftSidebar() {
   const router = useRouter();

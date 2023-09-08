@@ -1,8 +1,8 @@
 //7번 페이지 이후부터 사용되는 사이드바
 //16번 페이지 이후의 사이드바하고 내용 다름에 유의
-import { useState } from "react"
-import style from "./SideBar.module.css"
 import Link from "next/link"
+import { useState } from "react"
+import style from "../styles/SideBar.module.css"
 
 export default function SideBar() {
   const [open, setOpen] = useState(false)

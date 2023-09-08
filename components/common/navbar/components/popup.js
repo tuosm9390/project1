@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import styles from './popup.module.css'
+import styles from '../styles/popup.module.css';
 
 function popup() {
     const router=useRouter()

@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
 import React, { useEffect, useState } from "react"
-import Menu from "../footer/menu"
-import styles from "./navbar.module.css"
+import Menu from "../../footer/components/menu.js"
+import styles from "../styles/navbar.module.css"
 import Popup from "./popup"
 
 function navbar() {

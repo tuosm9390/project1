@@ -32,13 +32,13 @@
 
 .leftSidebarContainer .sidebarWrapper .banner div:nth-child(2) {
     background-color: skyblue;
-    background-image: url('../../../public/asset/images/텔레그램이미지.jpeg');
+    background-image: url('../../../../public/asset/images/telegram.jpeg');
     background-size: contain;
 }
 
 .leftSidebarContainer .sidebarWrapper .banner div:nth-child(3) {
     background-color: gold;
-    background-image: url('../../../public/asset/images/카카오톡이미지.png');
+    background-image: url('../../../../public/asset/images/kakao.png');
     background-size: contain;
 }
 
