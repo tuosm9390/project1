@@ -45,13 +45,18 @@
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid #FFF;
-    background: #4169E1;
+    background: #1a74e2;
     color:white;
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     font-family: 'NanumSquareNeo-Variable';
 }
 
+.firstRowContainer button:hover{
+    background-color: #1d9bf0;
+  transition: 0.5s all;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
 .yourMoneyContainer{
     margin: 0 auto;
     width: 166px;
@@ -90,9 +95,15 @@
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid #FFF;
-    background: #4169E1;
+    background: #1a74e2;
     color:white;
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     font-family: 'NanumSquareNeo-Variable';
+}
+
+.thirdRowContainer button:hover{
+    background-color: #1d9bf0;
+  transition: 0.5s all;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
