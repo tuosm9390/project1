@@ -10,7 +10,6 @@
     justify-content: space-between;
     /* border:1px solid red; */
     border: 1px solid #FFF;
-    background: #808080;
     border: 2px solid rgba(255,255,255,0.1);
 box-shadow: 0 0 40px rgba(8,7,16,0.6);
 }
@@ -35,6 +34,19 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
     font-weight: 700;
     line-height: 20px;
 }
-.contentContainer{
-    /* border:1px solid white; */
-}
+
+.contentContainer {
+    background-color: black;
+    color: white;
+    max-height: 0; /* 초기에는 내용을 감추기 위해 높이를 0으로 설정 */
+    overflow: hidden; /* 내용이 넘칠 경우 숨김 처리 */
+    background-color: black;
+    color: white;
+    transition: max-height 0.4s ease-in-out; /* max-height 변경에 대한 애니메이션 효과 설정 */
+  }
+  
+  .open {
+    max-height: 409px; /* 내용이 나타날 최대 높이 */
+    transition: max-height 0.4s ease-in-out; /* max-height 변경에 대한 애니메이션 효과 설정 */
+  }
+  

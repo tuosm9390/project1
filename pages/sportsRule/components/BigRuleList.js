@@ -24,13 +24,15 @@ export default function BigRuleList() {
             className={styles.titleContainer}
             onClick={() => onClickList(v.id)}
           >
-            <div>{v.title}</div>
+            {v.title}
           </div>
-          {selectedId === v.id && open && (
-            <div className={styles.contentContainer}>
-              <SmallRuleList />
-            </div>
-          )}
+          <div
+            className={`${styles.contentContainer} ${
+              selectedId === v.id && open ? styles.open : ""
+            }`}
+          >
+            <SmallRuleList/>
+          </div>
         </div>
       ))}
     </div>
