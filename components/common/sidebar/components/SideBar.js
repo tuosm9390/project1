@@ -41,8 +41,32 @@ export default function SideBar() {
             <div className={style.itemIcon}>{open ? "-" : "+"}</div>
           </div>
         </div>
-        <>
-          {open && (
+        <div className={`${style.dropDownList} 
+        ${open ? style.open : ""}`}
+        onClick={onClickTopBtn}>
+          <Link href="/charge/First">
+                  <div className={style.dropDownItem}>
+                    <div className={style.dropDownItemInner}>
+                      <div className={style.dropDownText}>충전신청</div>
+                    </div>
+                  </div>
+                </Link>
+                <Link href="/charge/Second">
+                  <div className={style.dropDownItem}>
+                    <div className={style.dropDownItemInner}>
+                      <div className={style.dropDownText}>환전신청</div>
+                    </div>
+                  </div>
+                </Link>
+                <Link href="/charge/history">
+                  <div className={style.dropDownItem}>
+                    <div className={style.dropDownItemInner}>
+                      <div className={style.dropDownText}>거래내역</div>
+                    </div>
+                  </div>
+                </Link>
+        </div>
+          {/* {open && (
             <div className={style.dropDownList}>
               <div className={style.dropDownInner}>
                 <Link href="/charge/First">
@@ -68,8 +92,8 @@ export default function SideBar() {
                 </Link>
               </div>
             </div>
-          )}
-        </>
+          )} */}
+        
         <Link
           href="/switchpoint"
           className={style.itemWrapper}
